@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.BetterGetter</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Directly accessing GlideRecord elements gives you Java native types and GlideRecord's getValue() method always returns JavaScript strings. Neither is very helpful! Using GlideQuery is the recommended best practice, but sometimes you are forced to work with GlideRecord objects, e.g. the `current` object in Business Rules.&#13;
+&#13;
+BetterGetter converts GlideRecord element values into any preferred JavaScript native type (best effort), or can automatically return the correct JavaScript native type based on the internal type of the dictionary entry&#13;
+&#13;
+Use it like this:&#13;
+&#13;
+    var active = new BetterGetter(current).getValue('active');&#13;
+&#13;
+&#13;
+Or like this:&#13;
+&#13;
+    var bg = new BetterGetter(current);&#13;
+    var active = bg.getValue('active');&#13;
+&#13;
+Or like this:&#13;
+&#13;
+    var bg = new BetterGetter(current);&#13;
+&#13;
+    bg.getValue('number');&#13;
+    bg.getValue('short_description');</description>
+        <name>BetterGetter</name>
+        <script><![CDATA[function BetterGetter(gr) {
+    // In case caller omits the new keyword
+    if (!(this instanceof BetterGetter)) return new BetterGetter(gr);
+
+	this._gr = gr;
+}
+
+BetterGetter.prototype.getValue = function(element) {
+    switch (this._gr[element].getED().getInternalType() + '') {
+        case 'boolean':
+            return this.getBoolean(element);
+        case 'glide_date':
+            return this.getDate(element);
+        case 'glide_date_time':
+            return this.getDateTime(element);
+        case 'glide_list':
+            return this.getList(element);
+        case 'decimal':
+        case 'float':
+        case 'integer':
+        case 'longint':
+        case 'long':
+        case 'numeric':
+            return this.getNumber(element);
+        default:
+            return this.getString(element);
+    }
+};
+
+BetterGetter.prototype.getBoolean = function(element) {
+    return Boolean(this._gr[element]);
+};
+
+BetterGetter.prototype.getDate = function(element) {
+    return (this._gr[element] + '').slice(0, 10) || null;
+};
+
+BetterGetter.prototype.getDateTime = function(element) {
+    return this._gr[element] + '' || null;
+};
+
+BetterGetter.prototype.getList = function(element) {
+    if (this._gr[element].nil()) return null;
+    return (this._gr[element] + '').split(',');
+};
+
+BetterGetter.prototype.getListDisplay = function(element) {
+    if (this._gr[element].nil()) return null;
+    return (this._gr.getDisplayValue(element)).split(',');
+};
+
+BetterGetter.prototype.getNumber = function(element) {
+    if (this._gr[element].nil()) return null;
+    return Number(this._gr[element]);
+};
+
+BetterGetter.prototype.getString = function(element) {
+    return this._gr[element] + '' || null;
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-28 14:38:06</sys_created_on>
+        <sys_id>723f575947f27110af08edf1d16d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BetterGetter</sys_name>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_script_include_723f575947f27110af08edf1d16d437d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-28 14:38:06</sys_updated_on>
+    </sys_script_include>
+</record_update>
