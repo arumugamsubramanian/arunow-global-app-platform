@@ -1,0 +1,1946 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Access a list of information from a discovery status record</description>
+        <ih_action>false</ih_action>
+        <internal_name>get_status_details</internal_name>
+        <label_cache>[{"name":"{{action.discovery_status}}","label":"action➛Discovery Status","type":"action","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].count}}","label":"step➛Script step➛Count","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result}}","label":"step➛Script step➛Discovery Result","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.Device}}","label":"step➛Script step➛Discovery Result➛Device","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device}}","label":"step➛Script step➛Discovery Result➛Device","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child1}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child1","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child2}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child2","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child3}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child3","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child4}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child4","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child5}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child5","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Operational_Status}}","label":"step➛Script step➛Discovery Result➛Device➛Operational Status","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.operational_status}}","label":"step➛Script step➛Discovery Result➛Device➛Operational Status","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Device_Id}}","label":"step➛Script step➛Discovery Result➛Device➛Device Id","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.cmdb_device}}","label":"step➛Script step➛Discovery Result➛Device➛Device Id","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Source_Address}}","label":"step➛Script step➛Discovery Result➛Device➛Source Address","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.ip_address}}","label":"step➛Script step➛Discovery Result➛Device➛Source Address","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Issue_Count}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Count","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.issue_count}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Count","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Issue_Link}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Link","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.issue_link}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Link","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child6}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child6","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.last_status}}","label":"step➛Script step➛Discovery Result➛Device➛Last Status","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Device_Class}}","label":"step➛Script step➛Discovery Result➛Device➛Device Class","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_class}}","label":"step➛Script step➛Discovery Result➛Device➛Device Class","type":"step","ref":""}]</label_cache>
+        <master_snapshot>2c18760b2f17f410ba1b52492799b60e</master_snapshot>
+        <name>Get Status Details</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:48:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f605fe832f17f410ba1b52492799b6f7</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Get Status Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_f605fe832f17f410ba1b52492799b6f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:04:18</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=f605fe832f17f410ba1b52492799b6f7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f605fe832f17f410ba1b52492799b6f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>f605fe832f17f410ba1b52492799b6f7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:22</sys_created_on>
+        <sys_id>15077a872f17f410ba1b52492799b615</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 09:57:41</sys_updated_on>
+        <value/>
+        <variable display_value="Discovery Result">4d077a872f17f410ba1b52492799b60c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>f605fe832f17f410ba1b52492799b6f7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:22</sys_created_on>
+        <sys_id>51077a872f17f410ba1b52492799b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 09:57:22</sys_updated_on>
+        <value/>
+        <variable display_value="Count">8d077a872f17f410ba1b52492799b605</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f605fe832f17f410ba1b52492799b6f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>count</field>
+        <id>f605fe832f17f410ba1b52492799b6f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:22</sys_created_on>
+        <sys_id>1d077a872f17f410ba1b52492799b614</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 09:57:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7</table>
+        <value>{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].count}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>discovery_result</field>
+        <id>f605fe832f17f410ba1b52492799b6f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:22</sys_created_on>
+        <sys_id>dd077a872f17f410ba1b52492799b614</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 09:57:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7</table>
+        <value>{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result}}</value>
+    </sys_element_mapping>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208b717e0000001</claim_timestamp>
+        <metadata_update_name>sys_hub_action_type_definition_f605fe832f17f410ba1b52492799b6f7</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>AruNow Global Application Platform</previous_claim_name>
+        <previous_claim_scope>596bd39d47b27110af08edf1d16d437e</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:04:18</sys_created_on>
+        <sys_id>20fa2106477e3110af08edf1d16d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:04:18</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208b717a0000001</claim_timestamp>
+        <metadata_update_name>sys_hub_action_type_definition_f605fe832f17f410ba1b52492799b6f7</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>ServiceNow Discovery Spoke</previous_claim_name>
+        <previous_claim_scope>b1c1764f2fd3f410ba1b52492799b608</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:04:18</sys_created_on>
+        <sys_id>e0fa2106477e3110af08edf1d16d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:04:18</sys_updated_on>
+    </sys_claim>
+    <sys_hub_step_instance action="delete_multiple" query="action=f605fe832f17f410ba1b52492799b6f7^sys_idNOT IN00d6f2872f17f410ba1b52492799b681"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Status Details">f605fe832f17f410ba1b52492799b6f7</action>
+        <cid>3c34fa15-1627-4201-9ce4-90e262711dc6</cid>
+        <error_handling_type/>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:56:29</sys_created_on>
+        <sys_id>00d6f2872f17f410ba1b52492799b681</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 11:21:23</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=00d6f2872f17f410ba1b52492799b681"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>00d6f2872f17f410ba1b52492799b681</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:56:30</sys_created_on>
+        <sys_id>10d6f2872f17f410ba1b52492799b6bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 11:21:23</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+    var count = 0;
+  	var device = [];
+  	var discoveryStatusId = inputs.discovery_status.getUniqueValue();
+  	var discoveryStatus = inputs.discovery_status.getValue("state");
+	
+  	//Query all device history into usable format
+  	var deviceHistory = new GlideRecord("discovery_device_history");
+  	deviceHistory.addEncodedQuery("status="+discoveryStatusId);
+  	deviceHistory.query();
+  	while(deviceHistory.next()){
+	  	var devicesDiscovered = {};
+      	var issueCount = deviceHistory.getValue("issues");
+        var lastState = deviceHistory.getValue("last_state");
+      
+      	if(!!lastState)
+          lastState = lastState.toLowerCase();
+      	else
+          lastState = "";
+      
+      	if(discoveryStatus != "Completed" &amp;&amp; discoveryStatus != "Cancelled"){
+          devicesDiscovered.operational_status = "Processing";
+        }else if(lastState.indexOf("created") &gt; -1 || lastState.indexOf("updated") &gt; -1){
+        	devicesDiscovered.operational_status = "Successful";
+        }else if(!lastState &amp;&amp; issueCount == 0){
+        	devicesDiscovered.operational_status = "Successful";
+        }else{
+        	devicesDiscovered.operational_status = "Not Successful";
+        }
+      	
+     	devicesDiscovered.cmdb_device = deviceHistory.getValue("cmdb_ci");
+     	devicesDiscovered.device_class = deviceHistory.getDisplayValue("classified_as");
+    	devicesDiscovered.issue_count = issueCount;
+      	devicesDiscovered.issue_link = deviceHistory.getValue("issues_link");
+      	devicesDiscovered.ip_address = deviceHistory.getValue("source");
+      	devicesDiscovered.last_status = deviceHistory.getValue("last_state");
+        device.push(devicesDiscovered);
+    }
+  	
+  	var count = device.length;
+  	outputs.count = count;
+  	if(count &gt; 0)
+  		outputs.discovery_result = device;
+    
+
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>00d6f2872f17f410ba1b52492799b681</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:22</sys_created_on>
+        <sys_id>41077a872f17f410ba1b52492799b601</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 09:57:22</sys_updated_on>
+        <value/>
+        <variable display_value="Select MID Server">2c226939b3101300176b051a16a8dc83</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>00d6f2872f17f410ba1b52492799b681</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:22</sys_created_on>
+        <sys_id>8d077a872f17f410ba1b52492799b600</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 09:57:22</sys_updated_on>
+        <value/>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>00d6f2872f17f410ba1b52492799b681</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:21</sys_created_on>
+        <sys_id>c9077a872f17f410ba1b52492799b600</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 09:57:21</sys_updated_on>
+        <value/>
+        <variable display_value="MID Selection">cbd1070373531010791f94596bf6a776</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=00d6f2872f17f410ba1b52492799b681"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>00d6f2872f17f410ba1b52492799b681</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:21</sys_created_on>
+        <sys_id>85077a872f17f410ba1b52492799b600</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 09:57:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>discovery_status</field>
+        <id>00d6f2872f17f410ba1b52492799b681</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:56:30</sys_created_on>
+        <sys_id>d0d6f2872f17f410ba1b52492799b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 09:56:30</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_00d6f2872f17f410ba1b52492799b681</table>
+        <value>{{action.discovery_status}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection</field>
+        <id>00d6f2872f17f410ba1b52492799b681</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:21</sys_created_on>
+        <sys_id>c1077a872f17f410ba1b52492799b600</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 09:57:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection_type</field>
+        <id>00d6f2872f17f410ba1b52492799b681</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:21</sys_created_on>
+        <sys_id>49077a872f17f410ba1b52492799b600</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 09:57:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>00d6f2872f17f410ba1b52492799b681</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:56:30</sys_created_on>
+        <sys_id>18d6f2872f17f410ba1b52492799b6bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 09:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_00d6f2872f17f410ba1b52492799b681^id=00d6f2872f17f410ba1b52492799b681"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=00d6f2872f17f410ba1b52492799b681"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=00d6f2872f17f410ba1b52492799b681"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=00d6f2872f17f410ba1b52492799b681^sys_idNOT IN94d6f2872f17f410ba1b52492799b689"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>discovery_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">00d6f2872f17f410ba1b52492799b681</model>
+        <model_id>00d6f2872f17f410ba1b52492799b681</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_00d6f2872f17f410ba1b52492799b681</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="discovery_status">discovery_status</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:56:29</sys_created_on>
+        <sys_id>94d6f2872f17f410ba1b52492799b689</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:04:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=00d6f2872f17f410ba1b52492799b681^sys_idNOT IN14d6f2872f17f410ba1b52492799b69a,94d6f2872f17f410ba1b52492799b693"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Device,child_name=device,child_type=object,child_type_label=Object,child_uiUniqueId=9c202874-43cf-4e95-a97c-3d23de0aa091,co_type_name=FD50d6f2874717f410269a3a9233086f8f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>discovery_result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Discovery Result</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">00d6f2872f17f410ba1b52492799b681</model>
+        <model_id>00d6f2872f17f410ba1b52492799b681</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_00d6f2872f17f410ba1b52492799b681</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:56:29</sys_created_on>
+        <sys_id>14d6f2872f17f410ba1b52492799b69a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:02:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=d13d1911-ed1e-4041-be0a-7897812ddc46</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>count</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">00d6f2872f17f410ba1b52492799b681</model>
+        <model_id>00d6f2872f17f410ba1b52492799b681</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_00d6f2872f17f410ba1b52492799b681</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:56:29</sys_created_on>
+        <sys_id>94d6f2872f17f410ba1b52492799b693</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:04:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=00d6f2872f17f410ba1b52492799b681"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_00d6f2872f17f410ba1b52492799b681"/>
+    <sys_hub_action_input action="delete_multiple" query="model=f605fe832f17f410ba1b52492799b6f7^sys_idNOT IN40d6f2872f17f410ba1b52492799b671"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=6a645d94-6da6-4de1-8495-ca742e78efba</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>discovery_status</choice_table>
+        <column_label>Discovery Status</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>discovery_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Discovery Status</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get Status Details">f605fe832f17f410ba1b52492799b6f7</model>
+        <model_id>f605fe832f17f410ba1b52492799b6f7</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_f605fe832f17f410ba1b52492799b6f7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="discovery_status">discovery_status</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:56:28</sys_created_on>
+        <sys_id>40d6f2872f17f410ba1b52492799b671</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:02:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=40d6f2872f17f410ba1b52492799b671"/>
+    <sys_hub_action_output action="delete_multiple" query="model=f605fe832f17f410ba1b52492799b6f7^sys_idNOT IN4d077a872f17f410ba1b52492799b60c,8d077a872f17f410ba1b52492799b605"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Device,child_name=device,child_type=object,child_type_label=Object,child_uiUniqueId=9c202874-43cf-4e95-a97c-3d23de0aa091,co_type_name=FDfdf7b20bef17f410a130fdc71012973d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=3c34fa15-1627-4201-9ce4-90e262711dc6,sourceType=step,sourceUiUniqueId=b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=474538b0-48dc-4f3e-ab4f-183d3b0376a3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Discovery Result</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>discovery_result</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Discovery Result</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Status Details">f605fe832f17f410ba1b52492799b6f7</model>
+        <model_id>f605fe832f17f410ba1b52492799b6f7</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:22</sys_created_on>
+        <sys_id>4d077a872f17f410ba1b52492799b60c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4d077a872f17f410ba1b52492799b60c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4d077a872f17f410ba1b52492799b60c"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=84b9d3f5-5f4e-45a0-887e-8f801bd71695</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Count</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>count</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Status Details">f605fe832f17f410ba1b52492799b6f7</model>
+        <model_id>f605fe832f17f410ba1b52492799b6f7</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:22</sys_created_on>
+        <sys_id>8d077a872f17f410ba1b52492799b605</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:04:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8d077a872f17f410ba1b52492799b605"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8d077a872f17f410ba1b52492799b605"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f605fe832f17f410ba1b52492799b6f7"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=f605fe832f17f410ba1b52492799b6f7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f605fe832f17f410ba1b52492799b6f7^sys_idNOT INccd6f2872f17f410ba1b52492799b67d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>discovery_status</element>
+        <help/>
+        <hint/>
+        <label>Discovery Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f605fe832f17f410ba1b52492799b6f7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:56:28</sys_created_on>
+        <sys_id>ccd6f2872f17f410ba1b52492799b67d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Discovery Status</sys_name>
+        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f605fe832f17f410ba1b52492799b6f7_discovery_status_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:02:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208a3d570000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_var__m_sys_hub_action_input_f605fe832f17f410ba1b52492799b6f7_discovery_status_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>AruNow Global Application Platform</previous_claim_name>
+        <previous_claim_scope>596bd39d47b27110af08edf1d16d437e</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:02:59</sys_created_on>
+        <sys_id>d1aae5c2477e3110af08edf1d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:02:59</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208a3d540000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_var__m_sys_hub_action_input_f605fe832f17f410ba1b52492799b6f7_discovery_status_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>ServiceNow Discovery Spoke</previous_claim_name>
+        <previous_claim_scope>b1c1764f2fd3f410ba1b52492799b608</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:02:59</sys_created_on>
+        <sys_id>95aae5c2477e3110af08edf1d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:02:59</sys_updated_on>
+    </sys_claim>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_f605fe832f17f410ba1b52492799b6f7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7^sys_idNOT IN01077a872f17f410ba1b52492799b612,89077a872f17f410ba1b52492799b60b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>discovery_result</element>
+        <help/>
+        <hint/>
+        <label>Discovery Result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:22</sys_created_on>
+        <sys_id>01077a872f17f410ba1b52492799b612</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Discovery Result</sys_name>
+        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7_discovery_result_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:02:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208a36300000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7_discovery_result_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>AruNow Global Application Platform</previous_claim_name>
+        <previous_claim_scope>596bd39d47b27110af08edf1d16d437e</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:02:57</sys_created_on>
+        <sys_id>38aa2982477e3110af08edf1d16d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:02:57</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208a36280000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7_discovery_result_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>ServiceNow Discovery Spoke</previous_claim_name>
+        <previous_claim_scope>b1c1764f2fd3f410ba1b52492799b608</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:02:57</sys_created_on>
+        <sys_id>f8aa2982477e3110af08edf1d16d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:02:57</sys_updated_on>
+    </sys_claim>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>count</element>
+        <help/>
+        <hint/>
+        <label>Count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:22</sys_created_on>
+        <sys_id>89077a872f17f410ba1b52492799b60b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Count</sys_name>
+        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7_count_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208aa7e50000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7_count_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>AruNow Global Application Platform</previous_claim_name>
+        <previous_claim_scope>596bd39d47b27110af08edf1d16d437e</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:03:27</sys_created_on>
+        <sys_id>0ccae9c2477e3110af08edf1d16d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:27</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208aa7e20000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7_count_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>ServiceNow Discovery Spoke</previous_claim_name>
+        <previous_claim_scope>b1c1764f2fd3f410ba1b52492799b608</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:03:27</sys_created_on>
+        <sys_id>cccae9c2477e3110af08edf1d16d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:27</sys_updated_on>
+    </sys_claim>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=f605fe832f17f410ba1b52492799b6f7^sys_idNOT INb118b60b2f17f410ba1b52492799b693"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get Status Details">f605fe832f17f410ba1b52492799b6f7</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b118b60b2f17f410ba1b52492799b693","name":"plan"}}</plan>
+        <snapshot>994ac78b2f97f410ba1b52492799b6d8</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:02:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b118b60b2f17f410ba1b52492799b693</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 11:21:31</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Access a list of information from a discovery status record</description>
+        <internal_name>get_status_details</internal_name>
+        <label_cache>[{"name":"{{action.discovery_status}}","label":"action➛Discovery Status","type":"action","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].count}}","label":"step➛Script step➛Count","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result}}","label":"step➛Script step➛Discovery Result","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.Device}}","label":"step➛Script step➛Discovery Result➛Device","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device}}","label":"step➛Script step➛Discovery Result➛Device","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child1}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child1","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child2}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child2","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child3}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child3","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child4}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child4","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child5}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child5","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Operational_Status}}","label":"step➛Script step➛Discovery Result➛Device➛Operational Status","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.operational_status}}","label":"step➛Script step➛Discovery Result➛Device➛Operational Status","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Device_Id}}","label":"step➛Script step➛Discovery Result➛Device➛Device Id","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.cmdb_device}}","label":"step➛Script step➛Discovery Result➛Device➛Device Id","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Source_Address}}","label":"step➛Script step➛Discovery Result➛Device➛Source Address","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.ip_address}}","label":"step➛Script step➛Discovery Result➛Device➛Source Address","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Issue_Count}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Count","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.issue_count}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Count","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Issue_Link}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Link","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.issue_link}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Link","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child6}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child6","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.last_status}}","label":"step➛Script step➛Discovery Result➛Device➛Last Status","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Device_Class}}","label":"step➛Script step➛Discovery Result➛Device➛Device Class","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_class}}","label":"step➛Script step➛Discovery Result➛Device➛Device Class","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get Status Details</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Status Details">f605fe832f17f410ba1b52492799b6f7</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2c18760b2f17f410ba1b52492799b60e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:02:59</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2c18760b2f17f410ba1b52492799b60e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2c18760b2f17f410ba1b52492799b60e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>2c18760b2f17f410ba1b52492799b60e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:02:00</sys_created_on>
+        <sys_id>c118760b2f17f410ba1b52492799b6b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 10:02:00</sys_updated_on>
+        <value/>
+        <variable display_value="Count">8918760b2f17f410ba1b52492799b69d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2c18760b2f17f410ba1b52492799b60e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>count</field>
+        <id>2c18760b2f17f410ba1b52492799b60e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:02:00</sys_created_on>
+        <sys_id>8d18760b2f17f410ba1b52492799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 10:02:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e</table>
+        <value>{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].count}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>discovery_result</field>
+        <id>2c18760b2f17f410ba1b52492799b60e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:02:00</sys_created_on>
+        <sys_id>4118760b2f17f410ba1b52492799b6b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 10:02:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e</table>
+        <value>{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=2c18760b2f17f410ba1b52492799b60e^sys_idNOT IN6018760b2f17f410ba1b52492799b66b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Status Details">2c18760b2f17f410ba1b52492799b60e</action>
+        <cid>3c34fa15-1627-4201-9ce4-90e262711dc6</cid>
+        <error_handling_type/>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:58</sys_created_on>
+        <sys_id>6018760b2f17f410ba1b52492799b66b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 11:21:29</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6018760b2f17f410ba1b52492799b66b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6018760b2f17f410ba1b52492799b66b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
+        <sys_id>3018760b2f17f410ba1b52492799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 10:01:59</sys_updated_on>
+        <value/>
+        <variable display_value="Select MID Server">2c226939b3101300176b051a16a8dc83</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6018760b2f17f410ba1b52492799b66b</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
+        <sys_id>3418760b2f17f410ba1b52492799b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 10:01:59</sys_updated_on>
+        <value/>
+        <variable display_value="MID Selection">cbd1070373531010791f94596bf6a776</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6018760b2f17f410ba1b52492799b66b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
+        <sys_id>7c18760b2f17f410ba1b52492799b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 10:01:59</sys_updated_on>
+        <value/>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6018760b2f17f410ba1b52492799b66b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
+        <sys_id>f018760b2f17f410ba1b52492799b697</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 11:21:29</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+    var count = 0;
+  	var device = [];
+  	var discoveryStatusId = inputs.discovery_status.getUniqueValue();
+  	var discoveryStatus = inputs.discovery_status.getValue("state");
+	
+  	//Query all device history into usable format
+  	var deviceHistory = new GlideRecord("discovery_device_history");
+  	deviceHistory.addEncodedQuery("status="+discoveryStatusId);
+  	deviceHistory.query();
+  	while(deviceHistory.next()){
+	  	var devicesDiscovered = {};
+      	var issueCount = deviceHistory.getValue("issues");
+        var lastState = deviceHistory.getValue("last_state");
+      
+      	if(!!lastState)
+          lastState = lastState.toLowerCase();
+      	else
+          lastState = "";
+      
+      	if(discoveryStatus != "Completed" &amp;&amp; discoveryStatus != "Cancelled"){
+          devicesDiscovered.operational_status = "Processing";
+        }else if(lastState.indexOf("created") &gt; -1 || lastState.indexOf("updated") &gt; -1){
+        	devicesDiscovered.operational_status = "Successful";
+        }else if(!lastState &amp;&amp; issueCount == 0){
+        	devicesDiscovered.operational_status = "Successful";
+        }else{
+        	devicesDiscovered.operational_status = "Not Successful";
+        }
+      	
+     	devicesDiscovered.cmdb_device = deviceHistory.getValue("cmdb_ci");
+     	devicesDiscovered.device_class = deviceHistory.getDisplayValue("classified_as");
+    	devicesDiscovered.issue_count = issueCount;
+      	devicesDiscovered.issue_link = deviceHistory.getValue("issues_link");
+      	devicesDiscovered.ip_address = deviceHistory.getValue("source");
+      	devicesDiscovered.last_status = deviceHistory.getValue("last_state");
+        device.push(devicesDiscovered);
+    }
+  	
+  	var count = device.length;
+  	outputs.count = count;
+  	if(count &gt; 0)
+  		outputs.discovery_result = device;
+    
+
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6018760b2f17f410ba1b52492799b66b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>6018760b2f17f410ba1b52492799b66b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
+        <sys_id>3c18760b2f17f410ba1b52492799b695</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 10:01:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>discovery_status</field>
+        <id>6018760b2f17f410ba1b52492799b66b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
+        <sys_id>fc18760b2f17f410ba1b52492799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 10:01:59</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6018760b2f17f410ba1b52492799b66b</table>
+        <value>{{action.discovery_status}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection</field>
+        <id>6018760b2f17f410ba1b52492799b66b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
+        <sys_id>f018760b2f17f410ba1b52492799b695</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 10:01:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection_type</field>
+        <id>6018760b2f17f410ba1b52492799b66b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
+        <sys_id>fc18760b2f17f410ba1b52492799b695</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 10:01:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>6018760b2f17f410ba1b52492799b66b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
+        <sys_id>b018760b2f17f410ba1b52492799b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 10:01:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_6018760b2f17f410ba1b52492799b66b^id=6018760b2f17f410ba1b52492799b66b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=6018760b2f17f410ba1b52492799b66b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6018760b2f17f410ba1b52492799b66b"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=6018760b2f17f410ba1b52492799b66b^sys_idNOT IN6818760b2f17f410ba1b52492799b66e"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>discovery_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>discovery_status</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">6018760b2f17f410ba1b52492799b66b</model>
+        <model_id>6018760b2f17f410ba1b52492799b66b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6018760b2f17f410ba1b52492799b66b</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="discovery_status">discovery_status</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:58</sys_created_on>
+        <sys_id>6818760b2f17f410ba1b52492799b66e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6018760b2f17f410ba1b52492799b66b^sys_idNOT IN7018760b2f17f410ba1b52492799b685,fc18760b2f17f410ba1b52492799b68b"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=d13d1911-ed1e-4041-be0a-7897812ddc46</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>count</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">6018760b2f17f410ba1b52492799b66b</model>
+        <model_id>6018760b2f17f410ba1b52492799b66b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6018760b2f17f410ba1b52492799b66b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
+        <sys_id>7018760b2f17f410ba1b52492799b685</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Device,child_name=device,child_type=object,child_type_label=Object,child_uiUniqueId=9c202874-43cf-4e95-a97c-3d23de0aa091,co_type_name=FD7018760bc917f410733e802d458e9f82,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>discovery_result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Discovery Result</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">6018760b2f17f410ba1b52492799b66b</model>
+        <model_id>6018760b2f17f410ba1b52492799b66b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6018760b2f17f410ba1b52492799b66b</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
+        <sys_id>fc18760b2f17f410ba1b52492799b68b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:04:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6018760b2f17f410ba1b52492799b66b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_6018760b2f17f410ba1b52492799b66b"/>
+    <sys_hub_action_input action="delete_multiple" query="model=2c18760b2f17f410ba1b52492799b60e^sys_idNOT INe818760b2f17f410ba1b52492799b65c"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=6a645d94-6da6-4de1-8495-ca742e78efba</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>discovery_status</choice_table>
+        <column_label>Discovery Status</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>discovery_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Discovery Status</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get Status Details">2c18760b2f17f410ba1b52492799b60e</model>
+        <model_id>2c18760b2f17f410ba1b52492799b60e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_2c18760b2f17f410ba1b52492799b60e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="discovery_status">discovery_status</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:58</sys_created_on>
+        <sys_id>e818760b2f17f410ba1b52492799b65c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:04:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e818760b2f17f410ba1b52492799b65c"/>
+    <sys_hub_action_output action="delete_multiple" query="model=2c18760b2f17f410ba1b52492799b60e^sys_idNOT IN4518760b2f17f410ba1b52492799b6a4,8918760b2f17f410ba1b52492799b69d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Device,child_name=device,child_type=object,child_type_label=Object,child_uiUniqueId=9c202874-43cf-4e95-a97c-3d23de0aa091,co_type_name=FD3818760ba717f410a6c11bf043a0669a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=3c34fa15-1627-4201-9ce4-90e262711dc6,sourceType=step,sourceUiUniqueId=b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=474538b0-48dc-4f3e-ab4f-183d3b0376a3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Discovery Result</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>discovery_result</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Discovery Result</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Status Details">2c18760b2f17f410ba1b52492799b60e</model>
+        <model_id>2c18760b2f17f410ba1b52492799b60e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:02:00</sys_created_on>
+        <sys_id>4518760b2f17f410ba1b52492799b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4518760b2f17f410ba1b52492799b6a4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4518760b2f17f410ba1b52492799b6a4"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=84b9d3f5-5f4e-45a0-887e-8f801bd71695</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Count</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>count</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Status Details">2c18760b2f17f410ba1b52492799b60e</model>
+        <model_id>2c18760b2f17f410ba1b52492799b60e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:02:00</sys_created_on>
+        <sys_id>8918760b2f17f410ba1b52492799b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8918760b2f17f410ba1b52492799b69d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8918760b2f17f410ba1b52492799b69d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2c18760b2f17f410ba1b52492799b60e"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=2c18760b2f17f410ba1b52492799b60e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_2c18760b2f17f410ba1b52492799b60e^sys_idNOT IN6818760b2f17f410ba1b52492799b668"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>discovery_status</element>
+        <help/>
+        <hint/>
+        <label>Discovery Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2c18760b2f17f410ba1b52492799b60e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:58</sys_created_on>
+        <sys_id>6818760b2f17f410ba1b52492799b668</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Discovery Status</sys_name>
+        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2c18760b2f17f410ba1b52492799b60e_discovery_status_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208aa53d0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_var__m_sys_hub_action_input_2c18760b2f17f410ba1b52492799b60e_discovery_status_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>AruNow Global Application Platform</previous_claim_name>
+        <previous_claim_scope>596bd39d47b27110af08edf1d16d437e</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:03:26</sys_created_on>
+        <sys_id>b7baa9c2477e3110af08edf1d16d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:26</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208aa53a0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_var__m_sys_hub_action_input_2c18760b2f17f410ba1b52492799b60e_discovery_status_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>ServiceNow Discovery Spoke</previous_claim_name>
+        <previous_claim_scope>b1c1764f2fd3f410ba1b52492799b608</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:03:26</sys_created_on>
+        <sys_id>7bbaa9c2477e3110af08edf1d16d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:26</sys_updated_on>
+    </sys_claim>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_2c18760b2f17f410ba1b52492799b60e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e^sys_idNOT IN4118760b2f17f410ba1b52492799b6b6,8118760b2f17f410ba1b52492799b6a3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>discovery_result</element>
+        <help/>
+        <hint/>
+        <label>Discovery Result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:02:00</sys_created_on>
+        <sys_id>4118760b2f17f410ba1b52492799b6b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Discovery Result</sys_name>
+        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e_discovery_result_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:02:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208a3e020000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e_discovery_result_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>AruNow Global Application Platform</previous_claim_name>
+        <previous_claim_scope>596bd39d47b27110af08edf1d16d437e</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:02:59</sys_created_on>
+        <sys_id>ddaae5c2477e3110af08edf1d16d43e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:02:59</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208a3dff0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e_discovery_result_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>ServiceNow Discovery Spoke</previous_claim_name>
+        <previous_claim_scope>b1c1764f2fd3f410ba1b52492799b608</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:02:59</sys_created_on>
+        <sys_id>91aae5c2477e3110af08edf1d16d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:02:59</sys_updated_on>
+    </sys_claim>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>count</element>
+        <help/>
+        <hint/>
+        <label>Count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:02:00</sys_created_on>
+        <sys_id>8118760b2f17f410ba1b52492799b6a3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Count</sys_name>
+        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e_count_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208aa6db0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e_count_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>AruNow Global Application Platform</previous_claim_name>
+        <previous_claim_scope>596bd39d47b27110af08edf1d16d437e</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:03:26</sys_created_on>
+        <sys_id>4ccaa9c2477e3110af08edf1d16d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:26</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208aa6d90000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e_count_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>ServiceNow Discovery Spoke</previous_claim_name>
+        <previous_claim_scope>b1c1764f2fd3f410ba1b52492799b608</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:03:26</sys_created_on>
+        <sys_id>00caa9c2477e3110af08edf1d16d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:26</sys_updated_on>
+    </sys_claim>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>f605fe832f17f410ba1b52492799b6f7</sys_id>
+        <latest_snapshot>2c18760b2f17f410ba1b52492799b60e</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_action_type_definition>
+</record_update>

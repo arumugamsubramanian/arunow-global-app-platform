@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD81077a878117f4103cc906374ee39903</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>b1c1764f2fd3f410ba1b52492799b608</scope_name>
+        <serialized_content>{"FlowDesigner:FD81077a878117f4103cc906374ee39903":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD81077a878117f4103cc906374ee39903.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Discovery Result\",\"mandatory\":\"true\",\"child_name\":\"Discovery Result_child0\",\"uiUniqueId\":\"2b8be08a-826b-42b7-aa73-8c174f2a9489\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD81077a878117f4103cc906374ee39903\",\"child_label\":\"Discovery Result_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f34ec332-c055-4221-88ec-26b79b1b48b4\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:57:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>45077a872f17f410ba1b52492799b603</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FD81077a878117f4103cc906374ee39903</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_complex_object_45077a872f17f410ba1b52492799b603</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:00</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208a3e880000001</claim_timestamp>
+        <metadata_update_name>sys_complex_object_45077a872f17f410ba1b52492799b603</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>AruNow Global Application Platform</previous_claim_name>
+        <previous_claim_scope>596bd39d47b27110af08edf1d16d437e</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:03:00</sys_created_on>
+        <sys_id>61aae5c2477e3110af08edf1d16d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:00</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208a3e850000001</claim_timestamp>
+        <metadata_update_name>sys_complex_object_45077a872f17f410ba1b52492799b603</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>ServiceNow Discovery Spoke</previous_claim_name>
+        <previous_claim_scope>b1c1764f2fd3f410ba1b52492799b608</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:03:00</sys_created_on>
+        <sys_id>25aae5c2477e3110af08edf1d16d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:03:00</sys_updated_on>
+    </sys_claim>
+</record_update>

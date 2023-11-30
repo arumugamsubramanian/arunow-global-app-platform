@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD25283a0b5617f4104adde220bca9b784</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>b1c1764f2fd3f410ba1b52492799b608</scope_name>
+        <serialized_content>{"FlowDesigner:FD25283a0b5617f4104adde220bca9b784":{"$COCollectionField":[{"device":{"cmdb_device":"String","cmdb_device.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Device Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"f9b826a5-431f-4c0d-9218-066651a07c8d\"}"},"issue_count":"String","issue_count.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Issue Count\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"eef5ab9f-ec69-4f64-8493-10bb7371acaf\"}"},"operational_status":"String","operational_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"\",\"label\":\"Operational Status\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"100\",\"uiUniqueId\":\"428777e0-2855-4d55-ae73-159f698a6f7a\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Not Successful\":\"{\\\"label\\\":\\\"Not Successful\\\",\\\"value\\\":\\\"Not Successful\\\",\\\"order\\\":3}\",\"Successful\":\"{\\\"label\\\":\\\"Successful\\\",\\\"value\\\":\\\"Successful\\\",\\\"order\\\":2}\",\"Processing\":\"{\\\"label\\\":\\\"Processing\\\",\\\"value\\\":\\\"Processing\\\",\\\"order\\\":1}\"}}"},"issue_link":"String","issue_link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Issue Link\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"558d99ad-61b1-4dfe-b772-1c0be1d929e8\"}"},"last_status":"String","last_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Status\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"37527280-64af-4647-8478-dece4588c894\"}"},"device_class":"String","device_class.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Device Class\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"bd59c7de-81f8-44ec-b166-9cc01f1aca33\"}"},"ip_address":"String","ip_address.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Source Address\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"50b7aefe-759e-4f50-94cd-27f22e9b252b\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"3c34fa15-1627-4201-9ce4-90e262711dc6\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Discovery Result\",\"mandatory\":\"true\",\"child_name\":\"device\",\"uiUniqueId\":\"474538b0-48dc-4f3e-ab4f-183d3b0376a3\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD25283a0b5617f4104adde220bca9b784\",\"child_label\":\"Device\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9c202874-43cf-4e95-a97c-3d23de0aa091\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD25283a0b5617f4104adde220bca9b784.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"3c34fa15-1627-4201-9ce4-90e262711dc6\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Discovery Result\",\"mandatory\":\"true\",\"child_name\":\"device\",\"uiUniqueId\":\"474538b0-48dc-4f3e-ab4f-183d3b0376a3\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD25283a0b5617f4104adde220bca9b784\",\"child_label\":\"Device\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9c202874-43cf-4e95-a97c-3d23de0aa091\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:02:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e5283a0b2f17f410ba1b52492799b684</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD25283a0b5617f4104adde220bca9b784</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_complex_object_e5283a0b2f17f410ba1b52492799b684</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:04:18</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208b6fb70000001</claim_timestamp>
+        <metadata_update_name>sys_complex_object_e5283a0b2f17f410ba1b52492799b684</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>AruNow Global Application Platform</previous_claim_name>
+        <previous_claim_scope>596bd39d47b27110af08edf1d16d437e</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:04:18</sys_created_on>
+        <sys_id>68fa2106477e3110af08edf1d16d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:04:18</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>18c208b6fb40000001</claim_timestamp>
+        <metadata_update_name>sys_complex_object_e5283a0b2f17f410ba1b52492799b684</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>ServiceNow Discovery Spoke</previous_claim_name>
+        <previous_claim_scope>b1c1764f2fd3f410ba1b52492799b608</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 14:04:18</sys_created_on>
+        <sys_id>2cfa2106477e3110af08edf1d16d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:04:18</sys_updated_on>
+    </sys_claim>
+</record_update>
