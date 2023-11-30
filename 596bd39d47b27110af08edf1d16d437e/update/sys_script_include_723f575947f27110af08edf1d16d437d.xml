@@ -7,7 +7,7 @@
         <client_callable>false</client_callable>
         <description>Directly accessing GlideRecord elements gives you Java native types and GlideRecord's getValue() method always returns JavaScript strings. Neither is very helpful! Using GlideQuery is the recommended best practice, but sometimes you are forced to work with GlideRecord objects, e.g. the `current` object in Business Rules.&#13;
 &#13;
-BetterGetter converts GlideRecord element values into any preferred JavaScript native type (best effort), or can automatically return the correct JavaScript native type based on the internal type of the dictionary entry&#13;
+BetterGetter converts GlideRecord element values into any preferred JavaScript native type (best effort), or can automatically return the correct JavaScript native type based on the internal type of the dictionary entry.&#13;
 &#13;
 Use it like this:&#13;
 &#13;
@@ -89,13 +89,13 @@ BetterGetter.prototype.getString = function(element) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-28 14:38:06</sys_created_on>
         <sys_id>723f575947f27110af08edf1d16d437d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>BetterGetter</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_script_include_723f575947f27110af08edf1d16d437d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-28 14:38:06</sys_updated_on>
+        <sys_updated_on>2023-11-30 14:30:37</sys_updated_on>
     </sys_script_include>
 </record_update>
