@@ -25,7 +25,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <internal_name>copy_of_generate_table_record_link</internal_name>
         <label_cache>[{"name":"{{action.tablename}}","label":"action➛tableName","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.recordsysid}}","label":"action➛recordSysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.linkdisplayname}}","label":"action➛linkDisplayName","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.link_type}}","label":"action➛Link Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.table_name}}","label":"action➛Table Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.record_sysid}}","label":"action➛Record SysID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.link_display_name}}","label":"action➛Link Display Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.portal_url_suffix}}","label":"action➛Portal URL Suffix","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].link}}","label":"step➛Script step➛link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].ui_journal_link}}","label":"step➛Script step➛UI Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].native_ui_journal}}","label":"step➛Script step➛UI Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].ui_html_link}}","label":"step➛Script step➛UI HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].native_ui_html}}","label":"step➛Script step➛UI HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_journal_link}}","label":"step➛Script step➛Portal Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_journal}}","label":"step➛Script step➛Portal Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_html_link}}","label":"step➛Script step➛Portal HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_html}}","label":"step➛Script step➛Portal HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>abd27f1e47f23110af08edf1d16d43f4</master_snapshot>
-        <name>Copy of Generate Table Record Link</name>
+        <name>Generate Table Record Link</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -37,15 +37,15 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d8d2fb1e47f23110af08edf1d16d4371</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Copy of Generate Table Record Link</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Generate Table Record Link</sys_name>
         <sys_overrides/>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d8d2fb1e47f23110af08edf1d16d4371</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-01 18:36:38</sys_updated_on>
+        <sys_updated_on>2023-12-02 04:06:43</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -154,7 +154,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=d8d2fb1e47f23110af08edf1d16d4371^sys_idNOT INacd2fb1e47f23110af08edf1d16d4398"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Copy of Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</action>
+        <action display_value="Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</action>
         <cid>127e395c-f791-4b7f-afc4-3dde5a50c27d</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1139,7 +1139,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Portal URL Suffix</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
+        <model display_value="Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
         <model_id>d8d2fb1e47f23110af08edf1d16d4371</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_d8d2fb1e47f23110af08edf1d16d4371</name>
@@ -1162,14 +1162,14 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-01 18:36:25</sys_created_on>
         <sys_id>24d2fb1e47f23110af08edf1d16d4391</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-01 18:36:36</sys_updated_on>
+        <sys_updated_on>2023-12-02 04:06:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1223,7 +1223,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Table Name</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
+        <model display_value="Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
         <model_id>d8d2fb1e47f23110af08edf1d16d4371</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_d8d2fb1e47f23110af08edf1d16d4371</name>
@@ -1307,7 +1307,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Link Display Name</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
+        <model display_value="Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
         <model_id>d8d2fb1e47f23110af08edf1d16d4371</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_d8d2fb1e47f23110af08edf1d16d4371</name>
@@ -1391,7 +1391,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Record SysID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
+        <model display_value="Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
         <model_id>d8d2fb1e47f23110af08edf1d16d4371</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_d8d2fb1e47f23110af08edf1d16d4371</name>
@@ -1478,7 +1478,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Copy of Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
+        <model display_value="Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
         <model_id>d8d2fb1e47f23110af08edf1d16d4371</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d8d2fb1e47f23110af08edf1d16d4371</name>
@@ -1501,14 +1501,14 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-01 18:36:26</sys_created_on>
         <sys_id>38d2fb1e47f23110af08edf1d16d43f3</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-01 18:36:36</sys_updated_on>
+        <sys_updated_on>2023-12-02 04:06:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1565,7 +1565,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Native UI HTML Link</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
+        <model display_value="Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
         <model_id>d8d2fb1e47f23110af08edf1d16d4371</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d8d2fb1e47f23110af08edf1d16d4371</name>
@@ -1652,7 +1652,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Portal Journal Link</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
+        <model display_value="Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
         <model_id>d8d2fb1e47f23110af08edf1d16d4371</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d8d2fb1e47f23110af08edf1d16d4371</name>
@@ -1739,7 +1739,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Portal HTML Link</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
+        <model display_value="Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
         <model_id>d8d2fb1e47f23110af08edf1d16d4371</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d8d2fb1e47f23110af08edf1d16d4371</name>
@@ -1826,7 +1826,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Copy of Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
+        <model display_value="Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
         <model_id>d8d2fb1e47f23110af08edf1d16d4371</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d8d2fb1e47f23110af08edf1d16d4371</name>
@@ -1913,7 +1913,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Native UI Journal Link</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
+        <model display_value="Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</model>
         <model_id>d8d2fb1e47f23110af08edf1d16d4371</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d8d2fb1e47f23110af08edf1d16d4371</name>
@@ -1961,7 +1961,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=d8d2fb1e47f23110af08edf1d16d4371"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=d8d2fb1e47f23110af08edf1d16d4371^sys_idNOT IN38d23f1e47f23110af08edf1d16d430c"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Copy of Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</action_type_id>
+        <action_type_id display_value="Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</action_type_id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-01 18:36:26</sys_created_on>
         <sys_id>38d23f1e47f23110af08edf1d16d430c</sys_id>
@@ -2206,19 +2206,19 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_d8d2fb1e47f23110af08edf1d16d4371"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=d8d2fb1e47f23110af08edf1d16d4371^sys_idNOT IN00e2ff1e47f23110af08edf1d16d4303"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Copy of Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</action_id>
+        <action_id display_value="Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"00e2ff1e47f23110af08edf1d16d4303","name":"plan","plan_signature":null}}</plan>
-        <snapshot>7bd2bf1e47f23110af08edf1d16d4384</snapshot>
+        <snapshot>6255f522473e3110af08edf1d16d43fb</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-01 18:36:40</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>00e2ff1e47f23110af08edf1d16d4303</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-01 18:36:40</sys_updated_on>
+        <sys_updated_on>2023-12-02 04:06:44</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2244,18 +2244,18 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <internal_name>copy_of_generate_table_record_link</internal_name>
         <label_cache>[{"name":"{{action.tablename}}","label":"action➛tableName","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.recordsysid}}","label":"action➛recordSysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.linkdisplayname}}","label":"action➛linkDisplayName","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.link_type}}","label":"action➛Link Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.table_name}}","label":"action➛Table Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.record_sysid}}","label":"action➛Record SysID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.link_display_name}}","label":"action➛Link Display Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.portal_url_suffix}}","label":"action➛Portal URL Suffix","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].link}}","label":"step➛Script step➛link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].ui_journal_link}}","label":"step➛Script step➛UI Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].native_ui_journal}}","label":"step➛Script step➛UI Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].ui_html_link}}","label":"step➛Script step➛UI HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].native_ui_html}}","label":"step➛Script step➛UI HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_journal_link}}","label":"step➛Script step➛Portal Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_journal}}","label":"step➛Script step➛Portal Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_html_link}}","label":"step➛Script step➛Portal HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_html}}","label":"step➛Script step➛Portal HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
-        <name>Copy of Generate Table Record Link</name>
+        <name>Generate Table Record Link</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Copy of Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</parent_action>
+        <parent_action display_value="Generate Table Record Link">d8d2fb1e47f23110af08edf1d16d4371</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-01 18:36:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>abd27f1e47f23110af08edf1d16d43f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2263,7 +2263,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-01 18:36:37</sys_updated_on>
+        <sys_updated_on>2023-12-02 04:06:42</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2372,7 +2372,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=abd27f1e47f23110af08edf1d16d43f4^sys_idNOT IN67d2bf1e47f23110af08edf1d16d430b"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Copy of Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</action>
+        <action display_value="Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</action>
         <cid>127e395c-f791-4b7f-afc4-3dde5a50c27d</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -3357,7 +3357,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Table Name</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
+        <model display_value="Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
         <model_id>abd27f1e47f23110af08edf1d16d43f4</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_abd27f1e47f23110af08edf1d16d43f4</name>
@@ -3441,7 +3441,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Portal URL Suffix</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
+        <model display_value="Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
         <model_id>abd27f1e47f23110af08edf1d16d43f4</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_abd27f1e47f23110af08edf1d16d43f4</name>
@@ -3464,14 +3464,14 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-01 18:36:37</sys_created_on>
         <sys_id>a3d2bf1e47f23110af08edf1d16d4304</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-01 18:36:37</sys_updated_on>
+        <sys_updated_on>2023-12-02 04:06:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3525,7 +3525,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Link Display Name</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
+        <model display_value="Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
         <model_id>abd27f1e47f23110af08edf1d16d43f4</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_abd27f1e47f23110af08edf1d16d43f4</name>
@@ -3609,7 +3609,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Record SysID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
+        <model display_value="Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
         <model_id>abd27f1e47f23110af08edf1d16d43f4</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_abd27f1e47f23110af08edf1d16d43f4</name>
@@ -3696,7 +3696,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Portal HTML Link</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
+        <model display_value="Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
         <model_id>abd27f1e47f23110af08edf1d16d43f4</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_abd27f1e47f23110af08edf1d16d43f4</name>
@@ -3783,7 +3783,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Copy of Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
+        <model display_value="Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
         <model_id>abd27f1e47f23110af08edf1d16d43f4</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_abd27f1e47f23110af08edf1d16d43f4</name>
@@ -3870,7 +3870,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Native UI HTML Link</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
+        <model display_value="Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
         <model_id>abd27f1e47f23110af08edf1d16d43f4</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_abd27f1e47f23110af08edf1d16d43f4</name>
@@ -3957,7 +3957,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Copy of Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
+        <model display_value="Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
         <model_id>abd27f1e47f23110af08edf1d16d43f4</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_abd27f1e47f23110af08edf1d16d43f4</name>
@@ -3980,14 +3980,14 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-01 18:36:38</sys_created_on>
         <sys_id>b3d2bf1e47f23110af08edf1d16d4378</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-01 18:36:38</sys_updated_on>
+        <sys_updated_on>2023-12-02 04:06:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4044,7 +4044,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Native UI Journal Link</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
+        <model display_value="Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
         <model_id>abd27f1e47f23110af08edf1d16d43f4</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_abd27f1e47f23110af08edf1d16d43f4</name>
@@ -4131,7 +4131,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <label>Portal Journal Link</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Copy of Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
+        <model display_value="Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</model>
         <model_id>abd27f1e47f23110af08edf1d16d43f4</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_abd27f1e47f23110af08edf1d16d43f4</name>
@@ -4179,7 +4179,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=abd27f1e47f23110af08edf1d16d43f4"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=abd27f1e47f23110af08edf1d16d43f4^sys_idNOT INb7d2bf1e47f23110af08edf1d16d4384"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Copy of Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</action_type_id>
+        <action_type_id display_value="Generate Table Record Link">abd27f1e47f23110af08edf1d16d43f4</action_type_id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-01 18:36:38</sys_created_on>
         <sys_id>b7d2bf1e47f23110af08edf1d16d4384</sys_id>

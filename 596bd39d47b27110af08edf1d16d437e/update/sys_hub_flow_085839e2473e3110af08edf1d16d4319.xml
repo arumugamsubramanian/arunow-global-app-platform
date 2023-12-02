@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Schedule your cron jobs through Flow Designer. </description>
+        <internal_name>scheduled_jobs_demo</internal_name>
+        <label_cache>[{"name":"2fca22c9-30b8-4bb9-8a1e-d5fbf1d9a9da.current_month","label":"1 - Get Current Date From Script Include➛Current Month","reference_display":"Current Month","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1236f022-c1f9-4103-b844-d62c6554c5b8"}}]</label_cache>
+        <master_snapshot>e18bf5e6473e3110af08edf1d16d4369</master_snapshot>
+        <name>Scheduled Jobs Demo</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>f58bf5e6473e3110af08edf1d16d43b6</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:19:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>085839e2473e3110af08edf1d16d4319</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Scheduled Jobs Demo</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_hub_flow_085839e2473e3110af08edf1d16d4319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:42</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=085839e2473e3110af08edf1d16d4319"/>
+    <sys_variable_value action="delete_multiple" query="document_key=085839e2473e3110af08edf1d16d4319"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2023-12-02 04:33:42</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f58bf5e6473e3110af08edf1d16d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:42</sys_updated_on>
+        <time>1970-01-01 18:00:00</time>
+        <timer_type>4</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:f58bf5e6473e3110af08edf1d16d43b6^sys_idNOT IN7d8bf5e6473e3110af08edf1d16d43b6"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:f58bf5e6473e3110af08edf1d16d43b6</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2023-12-02 04:33:42</run_start>
+        <run_time>1970-01-01 18:00:00</run_time>
+        <run_type>monthly</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('f58bf5e6473e3110af08edf1d16d43b6');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:42</sys_created_on>
+        <sys_id>7d8bf5e6473e3110af08edf1d16d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:42</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">f58bf5e6473e3110af08edf1d16d43b6</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=085839e2473e3110af08edf1d16d4319"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=085839e2473e3110af08edf1d16d4319^sys_idNOT INa88a75a6473e3110af08edf1d16d4344"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
+        <name>Monthly</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:29:15</sys_created_on>
+        <sys_id>a88a75a6473e3110af08edf1d16d4344</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:42</sys_updated_on>
+        <trigger_definition display_value="Monthly">2ca52504c32222002841b63b12d3ae4a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>monthly</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a88a75a6473e3110af08edf1d16d4344"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a88a75a6473e3110af08edf1d16d4344</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:29:15</sys_created_on>
+        <sys_id>a48a75a6473e3110af08edf1d16d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:29:15</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Day of Month">ab36a504c32222002841b63b12d3ae8a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a88a75a6473e3110af08edf1d16d4344</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:29:15</sys_created_on>
+        <sys_id>e08a75a6473e3110af08edf1d16d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:29:15</sys_updated_on>
+        <value>1970-01-01 10:00:00</value>
+        <variable display_value="Time">b5d52504c32222002841b63b12d3aeaa</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_2ca52504c32222002841b63b12d3ae4a^id=a88a75a6473e3110af08edf1d16d4344"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=085839e2473e3110af08edf1d16d4319"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=085839e2473e3110af08edf1d16d4319^sys_idNOT IN085839e2473e3110af08edf1d16d431b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>085839e2473e3110af08edf1d16d4319</id>
+        <name>Scheduled Jobs Demo</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:19:39</sys_created_on>
+        <sys_id>085839e2473e3110af08edf1d16d431b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:19:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=085839e2473e3110af08edf1d16d431b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=085839e2473e3110af08edf1d16d4319"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=085839e2473e3110af08edf1d16d4319"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=085839e2473e3110af08edf1d16d4319"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=085839e2473e3110af08edf1d16d4319^sys_idNOT IN608a75a6473e3110af08edf1d16d434e,911bfda6473e3110af08edf1d16d4380,d51bfda6473e3110af08edf1d16d4375"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Current Date From Script Include">15b731e2473e3110af08edf1d16d43a4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:29:15</sys_created_on>
+        <sys_id>608a75a6473e3110af08edf1d16d434e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:42</sys_updated_on>
+        <ui_id>2fca22c9-30b8-4bb9-8a1e-d5fbf1d9a9da</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=608a75a6473e3110af08edf1d16d434e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=608a75a6473e3110af08edf1d16d434e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=608a75a6473e3110af08edf1d16d434e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
+        <order>6</order>
+        <parent_ui_id>d0a814d9-14c1-4395-8a0d-c633cfda6ab0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:31:45</sys_created_on>
+        <sys_id>911bfda6473e3110af08edf1d16d4380</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:42</sys_updated_on>
+        <ui_id>e0d4ccea-a3d6-43b2-a944-0903e3452c9a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=911bfda6473e3110af08edf1d16d4380"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>911bfda6473e3110af08edf1d16d4380</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:31:45</sys_created_on>
+        <sys_id>d11bfda6473e3110af08edf1d16d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:31:45</sys_updated_on>
+        <value>NO</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=911bfda6473e3110af08edf1d16d4380"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=911bfda6473e3110af08edf1d16d4380"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=911bfda6473e3110af08edf1d16d4380"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
+        <order>3</order>
+        <parent_ui_id>596efa65-92c8-4f42-9865-7808517045da</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:31:45</sys_created_on>
+        <sys_id>d51bfda6473e3110af08edf1d16d4375</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:42</sys_updated_on>
+        <ui_id>040e61b6-1f36-45d7-a5c0-0c2a8e45b3fe</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d51bfda6473e3110af08edf1d16d4375"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d51bfda6473e3110af08edf1d16d4375</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:31:45</sys_created_on>
+        <sys_id>9d1bfda6473e3110af08edf1d16d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:31:45</sys_updated_on>
+        <value>YES</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=d51bfda6473e3110af08edf1d16d4375"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d51bfda6473e3110af08edf1d16d4375"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d51bfda6473e3110af08edf1d16d4375"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=085839e2473e3110af08edf1d16d4319"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=085839e2473e3110af08edf1d16d4319^sys_idNOT IN951bfda6473e3110af08edf1d16d437a,9d1bfda6473e3110af08edf1d16d4381,d91bfda6473e3110af08edf1d16d4377,e48a75a6473e3110af08edf1d16d435c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dd1bfda6473e3110af08edf1d16d4379</block>
+        <comment/>
+        <connected_to>596efa65-92c8-4f42-9865-7808517045da</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:31:45</sys_created_on>
+        <sys_id>951bfda6473e3110af08edf1d16d437a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:42</sys_updated_on>
+        <ui_id>d0a814d9-14c1-4395-8a0d-c633cfda6ab0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=951bfda6473e3110af08edf1d16d437a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=951bfda6473e3110af08edf1d16d437a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=951bfda6473e3110af08edf1d16d437a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d51bfda6473e3110af08edf1d16d4381</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>d0a814d9-14c1-4395-8a0d-c633cfda6ab0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:31:45</sys_created_on>
+        <sys_id>9d1bfda6473e3110af08edf1d16d4381</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:42</sys_updated_on>
+        <ui_id>49a2fc20-a533-4662-af85-b0af78392e61</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9d1bfda6473e3110af08edf1d16d4381"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9d1bfda6473e3110af08edf1d16d4381"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9d1bfda6473e3110af08edf1d16d4381"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">151bfda6473e3110af08edf1d16d4377</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>596efa65-92c8-4f42-9865-7808517045da</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:31:45</sys_created_on>
+        <sys_id>d91bfda6473e3110af08edf1d16d4377</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:42</sys_updated_on>
+        <ui_id>3d4dcdd3-0d0b-4751-93ec-d75c586694d2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d91bfda6473e3110af08edf1d16d4377"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d91bfda6473e3110af08edf1d16d4377"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d91bfda6473e3110af08edf1d16d4377"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">248a75a6473e3110af08edf1d16d434f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:29:15</sys_created_on>
+        <sys_id>e48a75a6473e3110af08edf1d16d435c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:42</sys_updated_on>
+        <ui_id>596efa65-92c8-4f42-9865-7808517045da</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e48a75a6473e3110af08edf1d16d435c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e48a75a6473e3110af08edf1d16d435c</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:29:15</sys_created_on>
+        <sys_id>748a75a6473e3110af08edf1d16d4360</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:31:45</sys_updated_on>
+        <value>Check if the current month is allowed to run - feb</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e48a75a6473e3110af08edf1d16d435c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>e48a75a6473e3110af08edf1d16d435c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:31:45</sys_created_on>
+        <sys_id>d11bfda6473e3110af08edf1d16d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:31:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{2fca22c9-30b8-4bb9-8a1e-d5fbf1d9a9da.current_month}}=2</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>e48a75a6473e3110af08edf1d16d435c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:29:15</sys_created_on>
+        <sys_id>f08a75a6473e3110af08edf1d16d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:29:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e48a75a6473e3110af08edf1d16d435c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e48a75a6473e3110af08edf1d16d435c"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=085839e2473e3110af08edf1d16d4319"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=085839e2473e3110af08edf1d16d4319"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_085839e2473e3110af08edf1d16d4319"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_085839e2473e3110af08edf1d16d4319"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_085839e2473e3110af08edf1d16d4319"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_085839e2473e3110af08edf1d16d4319"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Schedule your cron jobs through Flow Designer. </description>
+        <internal_name>scheduled_jobs_demo</internal_name>
+        <label_cache>[{"name":"2fca22c9-30b8-4bb9-8a1e-d5fbf1d9a9da.current_month","label":"1 - Get Current Date From Script Include➛Current Month","reference_display":"Current Month","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1236f022-c1f9-4103-b844-d62c6554c5b8"}}]</label_cache>
+        <master>true</master>
+        <name>Scheduled Jobs Demo</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e18bf5e6473e3110af08edf1d16d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e18bf5e6473e3110af08edf1d16d4369^sys_idNOT INa58bf5e6473e3110af08edf1d16d438a"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
+        <name>Monthly</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>a58bf5e6473e3110af08edf1d16d438a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:42</sys_updated_on>
+        <trigger_definition display_value="Monthly">2ca52504c32222002841b63b12d3ae4a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>monthly</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a58bf5e6473e3110af08edf1d16d438a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a58bf5e6473e3110af08edf1d16d438a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>258bf5e6473e3110af08edf1d16d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <value>1970-01-01 10:00:00</value>
+        <variable display_value="Time">b5d52504c32222002841b63b12d3aeaa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a58bf5e6473e3110af08edf1d16d438a</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>e58bf5e6473e3110af08edf1d16d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Day of Month">ab36a504c32222002841b63b12d3ae8a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_2ca52504c32222002841b63b12d3ae4a^id=a58bf5e6473e3110af08edf1d16d438a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e18bf5e6473e3110af08edf1d16d4369^sys_idNOT INe58bf5e6473e3110af08edf1d16d436a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e18bf5e6473e3110af08edf1d16d4369</id>
+        <name>Scheduled Jobs Demo</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>e58bf5e6473e3110af08edf1d16d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e58bf5e6473e3110af08edf1d16d436a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e18bf5e6473e3110af08edf1d16d4369^sys_idNOT IN618bf5e6473e3110af08edf1d16d4389,e18bf5e6473e3110af08edf1d16d4384,ed8bf5e6473e3110af08edf1d16d437f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
+        <order>6</order>
+        <parent_ui_id>d0a814d9-14c1-4395-8a0d-c633cfda6ab0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>618bf5e6473e3110af08edf1d16d4389</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <ui_id>e0d4ccea-a3d6-43b2-a944-0903e3452c9a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=618bf5e6473e3110af08edf1d16d4389"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>618bf5e6473e3110af08edf1d16d4389</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>a18bf5e6473e3110af08edf1d16d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <value>NO</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=618bf5e6473e3110af08edf1d16d4389"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=618bf5e6473e3110af08edf1d16d4389"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=618bf5e6473e3110af08edf1d16d4389"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
+        <order>3</order>
+        <parent_ui_id>596efa65-92c8-4f42-9865-7808517045da</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>e18bf5e6473e3110af08edf1d16d4384</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <ui_id>040e61b6-1f36-45d7-a5c0-0c2a8e45b3fe</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e18bf5e6473e3110af08edf1d16d4384"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e18bf5e6473e3110af08edf1d16d4384</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>258bf5e6473e3110af08edf1d16d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <value>YES</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=e18bf5e6473e3110af08edf1d16d4384"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e18bf5e6473e3110af08edf1d16d4384"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e18bf5e6473e3110af08edf1d16d4384"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Current Date From Script Include">15b731e2473e3110af08edf1d16d43a4</action_type>
+        <action_type_parent display_value="Get Current Date From Script Include">d767b922473e3110af08edf1d16d433a</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>ed8bf5e6473e3110af08edf1d16d437f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <ui_id>2fca22c9-30b8-4bb9-8a1e-d5fbf1d9a9da</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ed8bf5e6473e3110af08edf1d16d437f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ed8bf5e6473e3110af08edf1d16d437f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ed8bf5e6473e3110af08edf1d16d437f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e18bf5e6473e3110af08edf1d16d4369^sys_idNOT IN218bf5e6473e3110af08edf1d16d436e,618bf5e6473e3110af08edf1d16d4377,a58bf5e6473e3110af08edf1d16d4374,e98bf5e6473e3110af08edf1d16d4371"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">248a75a6473e3110af08edf1d16d434f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>218bf5e6473e3110af08edf1d16d436e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <ui_id>596efa65-92c8-4f42-9865-7808517045da</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=218bf5e6473e3110af08edf1d16d436e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>218bf5e6473e3110af08edf1d16d436e</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>ed8bf5e6473e3110af08edf1d16d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <value>Check if the current month is allowed to run - feb</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=218bf5e6473e3110af08edf1d16d436e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>218bf5e6473e3110af08edf1d16d436e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>6d8bf5e6473e3110af08edf1d16d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{2fca22c9-30b8-4bb9-8a1e-d5fbf1d9a9da.current_month}}=2</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>218bf5e6473e3110af08edf1d16d436e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>a98bf5e6473e3110af08edf1d16d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=218bf5e6473e3110af08edf1d16d436e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=218bf5e6473e3110af08edf1d16d436e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d51bfda6473e3110af08edf1d16d4381</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>d0a814d9-14c1-4395-8a0d-c633cfda6ab0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>618bf5e6473e3110af08edf1d16d4377</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <ui_id>49a2fc20-a533-4662-af85-b0af78392e61</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=618bf5e6473e3110af08edf1d16d4377"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=618bf5e6473e3110af08edf1d16d4377"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=618bf5e6473e3110af08edf1d16d4377"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dd1bfda6473e3110af08edf1d16d4379</block>
+        <comment/>
+        <connected_to>596efa65-92c8-4f42-9865-7808517045da</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>a58bf5e6473e3110af08edf1d16d4374</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <ui_id>d0a814d9-14c1-4395-8a0d-c633cfda6ab0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a58bf5e6473e3110af08edf1d16d4374"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a58bf5e6473e3110af08edf1d16d4374"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a58bf5e6473e3110af08edf1d16d4374"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">151bfda6473e3110af08edf1d16d4377</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>596efa65-92c8-4f42-9865-7808517045da</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>e98bf5e6473e3110af08edf1d16d4371</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+        <ui_id>3d4dcdd3-0d0b-4751-93ec-d75c586694d2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e98bf5e6473e3110af08edf1d16d4371"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e98bf5e6473e3110af08edf1d16d4371"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e98bf5e6473e3110af08edf1d16d4371"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>085839e2473e3110af08edf1d16d4319</sys_id>
+        <latest_snapshot>e18bf5e6473e3110af08edf1d16d4369</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=085839e2473e3110af08edf1d16d4319^sys_idNOT INb18bf5e6473e3110af08edf1d16d43b9"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>085839e2473e3110af08edf1d16d4319</plan_id>
+        <snapshot>e18bf5e6473e3110af08edf1d16d4369</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b18bf5e6473e3110af08edf1d16d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:42</sys_updated_on>
+        <trigger display_value="">f58bf5e6473e3110af08edf1d16d43b6</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=085839e2473e3110af08edf1d16d4319"/>
+</record_update>
