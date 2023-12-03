@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="INSERT_OR_UPDATE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>u_description</field>
+        <name>Description</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-03 19:05:06</sys_created_on>
+        <sys_id>409c0e8347f63110af08edf1d16d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Description</sys_name>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Public APIs List Robust Transformer ETL Definition">d32a420347f63110af08edf1d16d431b</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Data Source Demo">cd2bc6cf47b63110af08edf1d16d4310</sys_rte_eb_entity>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_409c0e8347f63110af08edf1d16d436c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-03 19:05:06</sys_updated_on>
+    </sys_rte_eb_etl_field>
+</record_update>
