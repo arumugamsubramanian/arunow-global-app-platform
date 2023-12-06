@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="333d384847833510af08edf1d16d43ba" label="Gold Price Tracker Table" max_length="40" name="u_gold_price_tracker_table" type="collection">
+        <element label="Date" max_length="40" name="u_date" type="glide_date"/>
+        <element label="Metal Type" max_length="40" name="u_metal_type" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element label="Price" max_length="40" name="u_price" type="string"/>
+    </element>
+</database>

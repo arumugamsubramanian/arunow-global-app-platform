@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0811c94c47833510af08edf1d16d43a2" extends="sys_import_set_row" label="Gold Price Tracker" max_length="40" name="u_gold_price_tracker" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_date" label="Date" max_length="40" name="u_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_metal_type" label="Metal type" max_length="40" name="u_metal_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_price" label="Price" max_length="40" name="u_price" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="Temp Metal Type">c3acc1cc47c33510af08edf1d16d438e</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 17:18:35</sys_created_on>
+        <sys_id>72e0510447073510af08edf1d16d43fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Gold Price Tracker RT ETL Definition">c25bcd4c47c33510af08edf1d16d4364</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="Temp Table to Gold Price Tracker Table">345e814047073510af08edf1d16d43a2</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_72e0510447073510af08edf1d16d43fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 17:18:35</sys_updated_on>
+        <target_sys_rte_eb_field display_value="Metal Type">5a2d4dcc47c33510af08edf1d16d437a</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

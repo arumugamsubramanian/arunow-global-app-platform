@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="ROI Predicted Savings">3677cd36d7700200f215a5f75e6103fe</dashboard>
+        <delete>true</delete>
+        <group/>
+        <identity>pa_power_user</identity>
+        <read>true</read>
+        <role display_value="pa_power_user" name="pa_power_user">05dc30b3bf101100b96dac808c07392b</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 17:28:24</sys_created_on>
+        <sys_id>b43391c447073510af08edf1d16d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pa_power_user</sys_name>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_b43391c447073510af08edf1d16d4339</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 17:28:24</sys_updated_on>
+        <type>1</type>
+        <user/>
+        <write>true</write>
+    </pa_dashboards_permissions>
+</record_update>

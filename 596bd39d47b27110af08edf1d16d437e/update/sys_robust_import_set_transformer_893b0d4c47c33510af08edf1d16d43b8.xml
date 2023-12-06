@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch_size>100</batch_size>
+        <description>Gold Price Tracker RT</description>
+        <name>Gold Price Tracker RT</name>
+        <properties/>
+        <robust_transform_engine display_value="Gold Price Tracker RT ETL Definition">c25bcd4c47c33510af08edf1d16d4364</robust_transform_engine>
+        <source_table>u_gold_price_tracker</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 16:54:35</sys_created_on>
+        <sys_id>893b0d4c47c33510af08edf1d16d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gold Price Tracker RT</sys_name>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_893b0d4c47c33510af08edf1d16d43b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 16:54:35</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+</record_update>
