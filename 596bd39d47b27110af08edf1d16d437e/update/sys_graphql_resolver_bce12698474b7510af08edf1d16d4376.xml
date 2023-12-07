@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_graphql_resolver">
+    <sys_graphql_resolver action="INSERT_OR_UPDATE">
+        <name>Get User</name>
+        <schema display_value="University">c0acd250474b7510af08edf1d16d43e6</schema>
+        <script><![CDATA[(function process( /*ResolverEnvironment*/ env) {
+
+    // By default try to get ID from the query arguments: getStudent(id: ID!)
+    // If that is empty then try to use the value from the @source directive
+    // in the schema definition.  This allows us to use the same resolver
+    // from a query (getUser(id)) or from a nested field (getIncident/assignedTo)
+    var sysId = env.getArguments().id || env.getSource();
+
+    var gr = new GlideRecordSecure('sys_user');
+    gr.query('sys_id', sysId);
+
+    return gr;
+
+})(env);]]></script>
+        <sys_class_name>sys_graphql_resolver</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-07 17:51:26</sys_created_on>
+        <sys_id>bce12698474b7510af08edf1d16d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get User</sys_name>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_graphql_resolver_bce12698474b7510af08edf1d16d4376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-07 17:51:26</sys_updated_on>
+    </sys_graphql_resolver>
+</record_update>

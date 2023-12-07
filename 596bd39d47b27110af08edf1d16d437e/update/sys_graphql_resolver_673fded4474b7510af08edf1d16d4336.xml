@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_graphql_resolver">
+    <sys_graphql_resolver action="INSERT_OR_UPDATE">
+        <name>Get Incidents</name>
+        <schema display_value="University">c0acd250474b7510af08edf1d16d43e6</schema>
+        <script><![CDATA[(function process( /*ResolverEnvironment*/ env) {
+    var gr = new GlideRecordSecure('incident');
+
+    // If these parameters were passed add them to the GR
+    if (env.getArguments().callerId) {
+        gr.addQuery('caller_id', env.getArguments().callerId);
+    }
+
+    // If the sys id is specified for getIncident
+    if (env.getArguments().id) {
+        gr.addQuery('sys_id', env.getArguments().id);
+    }
+
+    // default to last 5 if not specified
+    var last = env.getArguments().last || 5;
+
+    // Handle optional "priority" argument
+    if (env.getArguments().priority) {
+        gr.addQuery('priority', env.getArguments().priority);
+    }
+    gr.orderByDesc('sys_created_on');
+    gr.setLimit(last);
+    gr.query();
+
+    return gr;
+})(env);]]></script>
+        <sys_class_name>sys_graphql_resolver</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-07 17:41:16</sys_created_on>
+        <sys_id>673fded4474b7510af08edf1d16d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Incidents</sys_name>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_graphql_resolver_673fded4474b7510af08edf1d16d4336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-07 17:41:16</sys_updated_on>
+    </sys_graphql_resolver>
+</record_update>
