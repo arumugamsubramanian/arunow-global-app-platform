@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation>Author: Arumugam S</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>ansible_tower_awx_demo</internal_name>
+        <label_cache>[]</label_cache>
+        <master_snapshot>260897074743f110af08edf1d16d43c6</master_snapshot>
+        <name>Ansible Tower AWX Demo</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-16 05:32:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af2f02cf47cbb110af08edf1d16d437c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Ansible Tower AWX Demo</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_hub_flow_af2f02cf47cbb110af08edf1d16d437c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-16 10:54:05</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_variable_value action="DELETE" query="document_key=af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=af2f02cf47cbb110af08edf1d16d437c^sys_idNOT IN6f2f02cf47cbb110af08edf1d16d437e"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>af2f02cf47cbb110af08edf1d16d437c</id>
+        <name>Ansible Tower AWX Demo</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-16 05:32:13</sys_created_on>
+        <sys_id>6f2f02cf47cbb110af08edf1d16d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-16 05:32:13</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=6f2f02cf47cbb110af08edf1d16d437e"/>
+    <sys_hub_flow_input action="DELETE" query="model=af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_hub_flow_output action="DELETE" query="model=af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_hub_action_instance action="DELETE" query="flow=af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=af2f02cf47cbb110af08edf1d16d437c^sys_idNOT IN82d813474743f110af08edf1d16d4323"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">c6d813474743f110af08edf1d16d4322</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ansible Tower AWX Demo">af2f02cf47cbb110af08edf1d16d437c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition/>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-16 10:54:05</sys_created_on>
+        <sys_id>82d813474743f110af08edf1d16d4323</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-16 10:54:05</sys_updated_on>
+        <ui_id>9622cbc7-9c34-411c-a3c6-aee0a147c8d6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=82d813474743f110af08edf1d16d4323"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=82d813474743f110af08edf1d16d4323"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=82d813474743f110af08edf1d16d4323"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_hub_flow_variable action="DELETE" query="model=af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation>Author: Arumugam S</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>ansible_tower_awx_demo</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>Ansible Tower AWX Demo</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Ansible Tower AWX Demo">af2f02cf47cbb110af08edf1d16d437c</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-16 10:50:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>260897074743f110af08edf1d16d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-16 10:50:34</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=260897074743f110af08edf1d16d43c6"/>
+    <sys_variable_value action="DELETE" query="document_key=260897074743f110af08edf1d16d43c6"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=260897074743f110af08edf1d16d43c6"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=260897074743f110af08edf1d16d43c6"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=260897074743f110af08edf1d16d43c6^sys_idNOT IN6e0897074743f110af08edf1d16d43c6"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>260897074743f110af08edf1d16d43c6</id>
+        <name>Ansible Tower AWX Demo</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-16 10:50:34</sys_created_on>
+        <sys_id>6e0897074743f110af08edf1d16d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-16 10:50:34</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=6e0897074743f110af08edf1d16d43c6"/>
+    <sys_hub_flow_input action="DELETE" query="model=260897074743f110af08edf1d16d43c6"/>
+    <sys_hub_flow_output action="DELETE" query="model=260897074743f110af08edf1d16d43c6"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=260897074743f110af08edf1d16d43c6"/>
+    <sys_hub_action_instance action="DELETE" query="flow=260897074743f110af08edf1d16d43c6^sys_idNOT INe60897074743f110af08edf1d16d43db"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="List Builds">f4f675cc1b97c45033fbdbd3cc4bcbb9</action_type>
+        <action_type_parent display_value="List Builds">bdd671cc1b97c45033fbdbd3cc4bcb46</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Ansible Tower AWX Demo">260897074743f110af08edf1d16d43c6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-16 10:50:34</sys_created_on>
+        <sys_id>e60897074743f110af08edf1d16d43db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-16 10:50:34</sys_updated_on>
+        <ui_id>4f0ab87b-e827-4a48-8a2c-64335fe95538</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=e60897074743f110af08edf1d16d43db"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e60897074743f110af08edf1d16d43db</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-16 10:50:34</sys_created_on>
+        <sys_id>a60897074743f110af08edf1d16d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-16 10:50:34</sys_updated_on>
+        <value>Playground</value>
+        <variable display_value="Job Path">3cf675cc1b97c45033fbdbd3cc4bcbba</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_f4f675cc1b97c45033fbdbd3cc4bcbb9^id=e60897074743f110af08edf1d16d43db"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=e60897074743f110af08edf1d16d43db"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=e60897074743f110af08edf1d16d43db"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=260897074743f110af08edf1d16d43c6"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=260897074743f110af08edf1d16d43c6"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=260897074743f110af08edf1d16d43c6"/>
+    <sys_hub_flow_variable action="DELETE" query="model=260897074743f110af08edf1d16d43c6"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_260897074743f110af08edf1d16d43c6"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_260897074743f110af08edf1d16d43c6"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_260897074743f110af08edf1d16d43c6"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_260897074743f110af08edf1d16d43c6"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>af2f02cf47cbb110af08edf1d16d437c</sys_id>
+        <latest_snapshot>260897074743f110af08edf1d16d43c6</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=af2f02cf47cbb110af08edf1d16d437c"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=af2f02cf47cbb110af08edf1d16d437c^sys_idNOT IN3608d7074743f110af08edf1d16d436b"/>
+    <sys_flow_subflow_plan action="DELETE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@879780</plan>
+        <plan_id display_value="Ansible Tower AWX Demo">af2f02cf47cbb110af08edf1d16d437c</plan_id>
+        <snapshot>260897074743f110af08edf1d16d43c6</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-16 10:50:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3608d7074743f110af08edf1d16d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-16 10:50:35</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</application>
+        <file_path/>
+        <instance_id>747cbe81db7af9d0199b1729139619a6</instance_id>
+        <instance_name>dev226167</instance_name>
+        <name>sys_hub_flow_af2f02cf47cbb110af08edf1d16d437c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>true</active><annotation>Author: Arumugam S</annotation><callable_by_client_api>false</callable_by_client_api><category/><copied_from/><copied_from_name/><description/><internal_name>ansible_tower_awx_demo</internal_name><label_cache>[]</label_cache><master_snapshot>260897074743f110af08edf1d16d43c6</master_snapshot><name>Ansible Tower AWX Demo</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-16 05:32:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>af2f02cf47cbb110af08edf1d16d437c</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Ansible Tower AWX Demo</sys_name><sys_overrides/><sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package><sys_policy/><sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope><sys_update_name>sys_hub_flow_af2f02cf47cbb110af08edf1d16d437c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-16 10:54:05</sys_updated_on><type>subflow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=af2f02cf47cbb110af08edf1d16d437c"/><sys_variable_value action="delete_multiple" query="document_key=af2f02cf47cbb110af08edf1d16d437c"/><sys_hub_trigger_instance action="delete_multiple" query="flow=af2f02cf47cbb110af08edf1d16d437c"/><sys_hub_flow_stage action="delete_multiple" query="flow=af2f02cf47cbb110af08edf1d16d437c"/><sys_flow_cat_variable_model action="delete_multiple" query="id=af2f02cf47cbb110af08edf1d16d437c^sys_idNOT IN6f2f02cf47cbb110af08edf1d16d437e"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>af2f02cf47cbb110af08edf1d16d437c</id><name>Ansible Tower AWX Demo</name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-16 05:32:13</sys_created_on><sys_id>6f2f02cf47cbb110af08edf1d16d437e</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-16 05:32:13</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6f2f02cf47cbb110af08edf1d16d437e"/><sys_hub_flow_input action="delete_multiple" query="model=af2f02cf47cbb110af08edf1d16d437c"/><sys_hub_flow_output action="delete_multiple" query="model=af2f02cf47cbb110af08edf1d16d437c"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=af2f02cf47cbb110af08edf1d16d437c"/><sys_hub_action_instance action="delete_multiple" query="flow=af2f02cf47cbb110af08edf1d16d437c"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=af2f02cf47cbb110af08edf1d16d437c"/><sys_hub_flow_logic action="delete_multiple" query="flow=af2f02cf47cbb110af08edf1d16d437c^sys_idNOT IN82d813474743f110af08edf1d16d4323"/><sys_hub_flow_logic action="INSERT_OR_UPDATE"><block display_value="">c6d813474743f110af08edf1d16d4322</block><comment/><connected_to/><decision_table/><decision_table_inputs/><display_text/><extended_inputs/><flow display_value="Ansible Tower AWX Demo">af2f02cf47cbb110af08edf1d16d437c</flow><flow_variable/><flow_variables_assigned/><inputs/><logic_definition/><order>1</order><outputs_assigned/><outputs_to_assign/><parent_ui_id/><sys_class_name>sys_hub_flow_logic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-16 10:54:05</sys_created_on><sys_id>82d813474743f110af08edf1d16d4323</sys_id><sys_mod_count>1</sys_mod_count><sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-16 10:54:05</sys_updated_on><ui_id>9622cbc7-9c34-411c-a3c6-aee0a147c8d6</ui_id><workflow_inputs/><workflow_reference/></sys_hub_flow_logic><sys_variable_value action="delete_multiple" query="document_key=82d813474743f110af08edf1d16d4323"/><sys_hub_flow_logic_ext_input action="delete_multiple" query="model=82d813474743f110af08edf1d16d4323"/><sys_hub_input_scripts action="delete_multiple" query="instance=82d813474743f110af08edf1d16d4323"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=af2f02cf47cbb110af08edf1d16d437c"/><sys_hub_flow_variable action="delete_multiple" query="model=af2f02cf47cbb110af08edf1d16d437c"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_af2f02cf47cbb110af08edf1d16d437c"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_af2f02cf47cbb110af08edf1d16d437c"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_af2f02cf47cbb110af08edf1d16d437c"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_af2f02cf47cbb110af08edf1d16d437c"/><sys_hub_flow_snapshot action="INSERT_OR_UPDATE"><access>public</access><acls/><active>true</active><annotation>Author: Arumugam S</annotation><callable_by_client_api>false</callable_by_client_api><category/><copied_from/><copied_from_name/><description/><internal_name>ansible_tower_awx_demo</internal_name><label_cache>[]</label_cache><master>true</master><name>Ansible Tower AWX Demo</name><natlang/><outputs/><parent_flow display_value="Ansible Tower AWX Demo">af2f02cf47cbb110af08edf1d16d437c</parent_flow><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><status>published</status><sys_class_name>sys_hub_flow_snapshot</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-16 10:50:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>260897074743f110af08edf1d16d43c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package/><sys_policy/><sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-16 10:50:34</sys_updated_on><type>subflow</type></sys_hub_flow_snapshot><sys_translated_text action="delete_multiple" query="documentkey=260897074743f110af08edf1d16d43c6"/><sys_variable_value action="delete_multiple" query="document_key=260897074743f110af08edf1d16d43c6"/><sys_hub_trigger_instance action="delete_multiple" query="flow=260897074743f110af08edf1d16d43c6"/><sys_hub_flow_stage action="delete_multiple" query="flow=260897074743f110af08edf1d16d43c6"/><sys_flow_cat_variable_model action="delete_multiple" query="id=260897074743f110af08edf1d16d43c6^sys_idNOT IN6e0897074743f110af08edf1d16d43c6"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>260897074743f110af08edf1d16d43c6</id><name>Ansible Tower AWX Demo</name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-16 10:50:34</sys_created_on><sys_id>6e0897074743f110af08edf1d16d43c6</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-16 10:50:34</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6e0897074743f110af08edf1d16d43c6"/><sys_hub_flow_input action="delete_multiple" query="model=260897074743f110af08edf1d16d43c6"/><sys_hub_flow_output action="delete_multiple" query="model=260897074743f110af08edf1d16d43c6"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=260897074743f110af08edf1d16d43c6"/><sys_hub_action_instance action="delete_multiple" query="flow=260897074743f110af08edf1d16d43c6^sys_idNOT INe60897074743f110af08edf1d16d43db"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="List Builds">f4f675cc1b97c45033fbdbd3cc4bcbb9</action_type><action_type_parent display_value="List Builds">bdd671cc1b97c45033fbdbd3cc4bcb46</action_type_parent><comment/><display_text/><flow display_value="Ansible Tower AWX Demo">260897074743f110af08edf1d16d43c6</flow><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-16 10:50:34</sys_created_on><sys_id>e60897074743f110af08edf1d16d43db</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-16 10:50:34</sys_updated_on><ui_id>4f0ab87b-e827-4a48-8a2c-64335fe95538</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=e60897074743f110af08edf1d16d43db"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>e60897074743f110af08edf1d16d43db</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-16 10:50:34</sys_created_on><sys_id>a60897074743f110af08edf1d16d43dc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-16 10:50:34</sys_updated_on><value>Playground</value><variable display_value="Job Path">3cf675cc1b97c45033fbdbd3cc4bcbba</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_f4f675cc1b97c45033fbdbd3cc4bcbb9^id=e60897074743f110af08edf1d16d43db"/><sys_hub_input_scripts action="delete_multiple" query="instance=e60897074743f110af08edf1d16d43db"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=e60897074743f110af08edf1d16d43db"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=260897074743f110af08edf1d16d43c6"/><sys_hub_flow_logic action="delete_multiple" query="flow=260897074743f110af08edf1d16d43c6"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=260897074743f110af08edf1d16d43c6"/><sys_hub_flow_variable action="delete_multiple" query="model=260897074743f110af08edf1d16d43c6"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_260897074743f110af08edf1d16d43c6"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_260897074743f110af08edf1d16d43c6"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_260897074743f110af08edf1d16d43c6"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_260897074743f110af08edf1d16d43c6"/><sys_hub_flow action="UPDATE"><sys_id>af2f02cf47cbb110af08edf1d16d437c</sys_id><latest_snapshot>260897074743f110af08edf1d16d43c6</latest_snapshot><compiler_build/></sys_hub_flow><sys_flow_trigger_plan action="delete_multiple" query="plan_id=af2f02cf47cbb110af08edf1d16d437c"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=af2f02cf47cbb110af08edf1d16d437c^sys_idNOT IN3608d7074743f110af08edf1d16d436b"/><sys_flow_subflow_plan action="INSERT_OR_UPDATE"><plan>com.snc.process_flow.engine.ProcessPlan@879780</plan><plan_id display_value="Ansible Tower AWX Demo">af2f02cf47cbb110af08edf1d16d437c</plan_id><snapshot>260897074743f110af08edf1d16d43c6</snapshot><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-16 10:50:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3608d7074743f110af08edf1d16d436b</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-16 10:50:35</sys_updated_on></sys_flow_subflow_plan></record_update>]]></payload>
+        <payload_hash>-1098244811</payload_hash>
+        <record_name>Ansible Tower AWX Demo</record_name>
+        <reverted_from/>
+        <source>f96e971947f27110af08edf1d16d43b8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-16 10:54:05</sys_created_on>
+        <sys_id>5ad89b474743f110af08edf1d16d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c72430c480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-16 10:54:05</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>12d89b47d443f110fcff8eabe8481207</update_guid>
+        <update_guid_history>12d89b47d443f110fcff8eabe8481207:-1098244811,0308d7070e43f1102817068cf2db977f:-686824312,816aba47a0cfb1104fd26e4413e535f4:-1258954511,eb2f0683620fb110faee0480dc31c2b2:-1715004274</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-16 10:56:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>0ba2130fcff642ae9312f587d1c2f601</sys_id>
+        <sys_metadata>af2f02cf47cbb110af08edf1d16d437c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower AWX Demo</sys_name>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_scope_delete display_value="">090ab42c67e9426fa2a7b5d557255e61</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_af2f02cf47cbb110af08edf1d16d437c</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_af2f02cf47cbb110af08edf1d16d437c">5ad89b474743f110af08edf1d16d4307</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-16 10:56:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
