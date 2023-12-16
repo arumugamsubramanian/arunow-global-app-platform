@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>oauth2</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description/>
+        <name>Ansible AWX OAuth</name>
+        <oauth2_profile display_value="Ansible AWX Tower default_profile">10ff5fcb4743f110af08edf1d16d43c9</oauth2_profile>
+        <protocol_name/>
+        <rest_endpoint>https://44b5-49-204-140-181.ngrok-free.app/api</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-16 11:31:20</sys_created_on>
+        <sys_id>25312f8f4743f110af08edf1d16d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible AWX OAuth</sys_name>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_rest_message_25312f8f4743f110af08edf1d16d433a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-16 11:31:20</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>
