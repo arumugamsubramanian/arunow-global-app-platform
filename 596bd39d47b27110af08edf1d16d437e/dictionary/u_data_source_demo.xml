@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="9601024747b63110af08edf1d16d43eb" label="Data Source Demo" max_length="40" name="u_data_source_demo" type="collection">
         <element label="API" max_length="40" name="u_api" type="string"/>
-        <element label="Auth" max_length="40" name="u_auth" type="string"/>
-        <element label="Category" max_length="40" name="u_category" type="string"/>
         <element label="Cors" max_length="40" name="u_cors" type="string"/>
-        <element label="Description" max_length="40" name="u_description" type="string"/>
-        <element label="HTTPS" max_length="40" name="u_https" type="boolean"/>
-        <element label="Link" max_length="1024" name="u_link" type="url"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element label="Description" max_length="40" name="u_description" type="string"/>
+        <element label="Auth" max_length="40" name="u_auth" type="string"/>
+        <element label="HTTPS" max_length="40" name="u_https" type="boolean"/>
+        <element label="Category" max_length="40" name="u_category" type="string"/>
+        <element label="Link" max_length="1024" name="u_link" type="url"/>
     </element>
 </database>

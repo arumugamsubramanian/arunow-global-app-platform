@@ -6,15 +6,19 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Access a list of information from a discovery status record</description>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>get_status_details</internal_name>
         <label_cache>[{"name":"{{action.discovery_status}}","label":"action➛Discovery Status","type":"action","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].count}}","label":"step➛Script step➛Count","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result}}","label":"step➛Script step➛Discovery Result","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.Device}}","label":"step➛Script step➛Discovery Result➛Device","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device}}","label":"step➛Script step➛Discovery Result➛Device","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child1}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child1","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child2}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child2","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child3}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child3","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child4}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child4","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child5}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child5","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Operational_Status}}","label":"step➛Script step➛Discovery Result➛Device➛Operational Status","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.operational_status}}","label":"step➛Script step➛Discovery Result➛Device➛Operational Status","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Device_Id}}","label":"step➛Script step➛Discovery Result➛Device➛Device Id","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.cmdb_device}}","label":"step➛Script step➛Discovery Result➛Device➛Device Id","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Source_Address}}","label":"step➛Script step➛Discovery Result➛Device➛Source Address","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.ip_address}}","label":"step➛Script step➛Discovery Result➛Device➛Source Address","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Issue_Count}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Count","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.issue_count}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Count","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Issue_Link}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Link","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.issue_link}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Link","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child6}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child6","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.last_status}}","label":"step➛Script step➛Discovery Result➛Device➛Last Status","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Device_Class}}","label":"step➛Script step➛Discovery Result➛Device➛Device Class","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_class}}","label":"step➛Script step➛Discovery Result➛Device➛Device Class","type":"step","ref":""}]</label_cache>
         <master_snapshot>2c18760b2f17f410ba1b52492799b60e</master_snapshot>
+        <master_snapshot_digest/>
         <name>Get Status Details</name>
         <natlang/>
         <outputs/>
@@ -27,15 +31,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f605fe832f17f410ba1b52492799b6f7</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Get Status Details</sys_name>
         <sys_overrides/>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_f605fe832f17f410ba1b52492799b6f7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-30 14:04:18</sys_updated_on>
+        <sys_updated_on>2024-12-13 11:44:19</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -249,18 +253,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=00d6f2872f17f410ba1b52492799b681"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>00d6f2872f17f410ba1b52492799b681</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 09:57:21</sys_created_on>
-        <sys_id>85077a872f17f410ba1b52492799b600</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 09:57:21</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>discovery_status</field>
         <id>00d6f2872f17f410ba1b52492799b681</id>
         <sys_created_by>admin</sys_created_by>
@@ -271,42 +263,6 @@
         <sys_updated_on>2021-10-24 09:56:30</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_00d6f2872f17f410ba1b52492799b681</table>
         <value>{{action.discovery_status}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection</field>
-        <id>00d6f2872f17f410ba1b52492799b681</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 09:57:21</sys_created_on>
-        <sys_id>c1077a872f17f410ba1b52492799b600</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 09:57:21</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection_type</field>
-        <id>00d6f2872f17f410ba1b52492799b681</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 09:57:21</sys_created_on>
-        <sys_id>49077a872f17f410ba1b52492799b600</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 09:57:21</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>00d6f2872f17f410ba1b52492799b681</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 09:56:30</sys_created_on>
-        <sys_id>18d6f2872f17f410ba1b52492799b6bc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 09:56:30</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_00d6f2872f17f410ba1b52492799b681^id=00d6f2872f17f410ba1b52492799b681"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=00d6f2872f17f410ba1b52492799b681"/>
@@ -396,6 +352,29 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
     <sys_hub_step_ext_output action="delete_multiple" query="model=00d6f2872f17f410ba1b52492799b681^sys_idNOT IN14d6f2872f17f410ba1b52492799b69a,94d6f2872f17f410ba1b52492799b693"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD50d6f2874717f410269a3a9233086f8f</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>b1c1764f2fd3f410ba1b52492799b608</scope_name>
+        <serialized_content>{"FlowDesigner:FD50d6f2874717f410269a3a9233086f8f":{"$COCollectionField":[{"device":{"cmdb_device":"String","cmdb_device.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Device Id\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"f9b826a5-431f-4c0d-9218-066651a07c8d\"}"},"issue_count":"String","issue_count.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Issue Count\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"eef5ab9f-ec69-4f64-8493-10bb7371acaf\"}"},"operational_status":"String","operational_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"\",\"label\":\"Operational Status\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"100\",\"uiUniqueId\":\"428777e0-2855-4d55-ae73-159f698a6f7a\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Not Successful\":\"{\\\"label\\\":\\\"Not Successful\\\",\\\"value\\\":\\\"Not Successful\\\",\\\"order\\\":3}\",\"Successful\":\"{\\\"label\\\":\\\"Successful\\\",\\\"value\\\":\\\"Successful\\\",\\\"order\\\":2}\",\"Processing\":\"{\\\"label\\\":\\\"Processing\\\",\\\"value\\\":\\\"Processing\\\",\\\"order\\\":1}\"}}"},"issue_link":"String","issue_link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Issue Link\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"558d99ad-61b1-4dfe-b772-1c0be1d929e8\"}"},"last_status":"String","last_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Status\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\",\"uiUniqueId\":\"37527280-64af-4647-8478-dece4588c894\"}"},"device_class":"String","device_class.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Device Class\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\",\"uiUniqueId\":\"bd59c7de-81f8-44ec-b166-9cc01f1aca33\"}"},"ip_address":"String","ip_address.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Source Address\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"50b7aefe-759e-4f50-94cd-27f22e9b252b\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Discovery Result\",\"mandatory\":\"false\",\"child_name\":\"device\",\"uiUniqueId\":\"b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD50d6f2874717f410269a3a9233086f8f\",\"child_label\":\"Device\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9c202874-43cf-4e95-a97c-3d23de0aa091\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD50d6f2874717f410269a3a9233086f8f.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Discovery Result\",\"mandatory\":\"false\",\"child_name\":\"device\",\"uiUniqueId\":\"b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD50d6f2874717f410269a3a9233086f8f\",\"child_label\":\"Device\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9c202874-43cf-4e95-a97c-3d23de0aa091\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 09:56:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>94d6f2872f17f410ba1b52492799b68f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:04:01</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -650,6 +629,29 @@
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=40d6f2872f17f410ba1b52492799b671"/>
     <sys_hub_action_output action="delete_multiple" query="model=f605fe832f17f410ba1b52492799b6f7^sys_idNOT IN4d077a872f17f410ba1b52492799b60c,8d077a872f17f410ba1b52492799b605"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDfdf7b20bef17f410a130fdc71012973d</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>b1c1764f2fd3f410ba1b52492799b608</scope_name>
+        <serialized_content>{"FlowDesigner:FDfdf7b20bef17f410a130fdc71012973d":{"$COCollectionField":[{"device":{"cmdb_device":"String","cmdb_device.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Device Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"f9b826a5-431f-4c0d-9218-066651a07c8d\"}"},"issue_count":"String","issue_count.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Issue Count\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"eef5ab9f-ec69-4f64-8493-10bb7371acaf\"}"},"operational_status":"String","operational_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"\",\"label\":\"Operational Status\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"100\",\"uiUniqueId\":\"428777e0-2855-4d55-ae73-159f698a6f7a\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Not Successful\":\"{\\\"label\\\":\\\"Not Successful\\\",\\\"value\\\":\\\"Not Successful\\\",\\\"order\\\":3}\",\"Successful\":\"{\\\"label\\\":\\\"Successful\\\",\\\"value\\\":\\\"Successful\\\",\\\"order\\\":2}\",\"Processing\":\"{\\\"label\\\":\\\"Processing\\\",\\\"value\\\":\\\"Processing\\\",\\\"order\\\":1}\"}}"},"issue_link":"String","issue_link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Issue Link\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"558d99ad-61b1-4dfe-b772-1c0be1d929e8\"}"},"last_status":"String","last_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Status\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"37527280-64af-4647-8478-dece4588c894\"}"},"device_class":"String","device_class.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Device Class\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"bd59c7de-81f8-44ec-b166-9cc01f1aca33\"}"},"ip_address":"String","ip_address.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Source Address\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"50b7aefe-759e-4f50-94cd-27f22e9b252b\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"3c34fa15-1627-4201-9ce4-90e262711dc6\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Discovery Result\",\"mandatory\":\"true\",\"child_name\":\"device\",\"uiUniqueId\":\"474538b0-48dc-4f3e-ab4f-183d3b0376a3\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDfdf7b20bef17f410a130fdc71012973d\",\"child_label\":\"Device\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9c202874-43cf-4e95-a97c-3d23de0aa091\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDfdf7b20bef17f410a130fdc71012973d.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"3c34fa15-1627-4201-9ce4-90e262711dc6\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Discovery Result\",\"mandatory\":\"true\",\"child_name\":\"device\",\"uiUniqueId\":\"474538b0-48dc-4f3e-ab4f-183d3b0376a3\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDfdf7b20bef17f410a130fdc71012973d\",\"child_label\":\"Device\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9c202874-43cf-4e95-a97c-3d23de0aa091\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1f7b20b2f17f410ba1b52492799b63e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:04:01</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -841,7 +843,7 @@
         <sys_id>ccd6f2872f17f410ba1b52492799b67d</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Discovery Status</sys_name>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f605fe832f17f410ba1b52492799b6f7_discovery_status_en</sys_update_name>
@@ -894,7 +896,7 @@
         <sys_id>01077a872f17f410ba1b52492799b612</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Discovery Result</sys_name>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7_discovery_result_en</sys_update_name>
@@ -945,7 +947,7 @@
         <sys_id>89077a872f17f410ba1b52492799b60b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Count</sys_name>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f605fe832f17f410ba1b52492799b6f7_count_en</sys_update_name>
@@ -1005,11 +1007,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Access a list of information from a discovery status record</description>
+        <flow_priority/>
         <internal_name>get_status_details</internal_name>
         <label_cache>[{"name":"{{action.discovery_status}}","label":"action➛Discovery Status","type":"action","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].count}}","label":"step➛Script step➛Count","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result}}","label":"step➛Script step➛Discovery Result","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.Device}}","label":"step➛Script step➛Discovery Result➛Device","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device}}","label":"step➛Script step➛Discovery Result➛Device","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child1}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child1","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child2}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child2","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child3}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child3","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child4}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child4","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child5}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child5","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Operational_Status}}","label":"step➛Script step➛Discovery Result➛Device➛Operational Status","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.operational_status}}","label":"step➛Script step➛Discovery Result➛Device➛Operational Status","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Device_Id}}","label":"step➛Script step➛Discovery Result➛Device➛Device Id","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.cmdb_device}}","label":"step➛Script step➛Discovery Result➛Device➛Device Id","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Source_Address}}","label":"step➛Script step➛Discovery Result➛Device➛Source Address","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.ip_address}}","label":"step➛Script step➛Discovery Result➛Device➛Source Address","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Issue_Count}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Count","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.issue_count}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Count","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Issue_Link}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Link","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.issue_link}}","label":"step➛Script step➛Discovery Result➛Device➛Issue Link","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_child6}}","label":"step➛Script step➛Discovery Result➛Device➛Device_child6","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.last_status}}","label":"step➛Script step➛Discovery Result➛Device➛Last Status","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.Device_Class}}","label":"step➛Script step➛Discovery Result➛Device➛Device Class","type":"step","ref":""},{"name":"{{step[3c34fa15-1627-4201-9ce4-90e262711dc6].discovery_result.device.device_class}}","label":"step➛Script step➛Discovery Result➛Device➛Device Class","type":"step","ref":""}]</label_cache>
         <master>true</master>
@@ -1204,18 +1209,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6018760b2f17f410ba1b52492799b66b"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>6018760b2f17f410ba1b52492799b66b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
-        <sys_id>3c18760b2f17f410ba1b52492799b695</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:01:59</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>discovery_status</field>
         <id>6018760b2f17f410ba1b52492799b66b</id>
         <sys_created_by>admin</sys_created_by>
@@ -1226,42 +1219,6 @@
         <sys_updated_on>2021-10-24 10:01:59</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_6018760b2f17f410ba1b52492799b66b</table>
         <value>{{action.discovery_status}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection</field>
-        <id>6018760b2f17f410ba1b52492799b66b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
-        <sys_id>f018760b2f17f410ba1b52492799b695</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:01:59</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection_type</field>
-        <id>6018760b2f17f410ba1b52492799b66b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
-        <sys_id>fc18760b2f17f410ba1b52492799b695</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:01:59</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>6018760b2f17f410ba1b52492799b66b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
-        <sys_id>b018760b2f17f410ba1b52492799b696</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:01:59</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_6018760b2f17f410ba1b52492799b66b^id=6018760b2f17f410ba1b52492799b66b"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=6018760b2f17f410ba1b52492799b66b"/>
@@ -1434,6 +1391,29 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD7018760bc917f410733e802d458e9f82</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>b1c1764f2fd3f410ba1b52492799b608</scope_name>
+        <serialized_content>{"FlowDesigner:FD7018760bc917f410733e802d458e9f82":{"$COCollectionField":[{"device":{"cmdb_device":"String","cmdb_device.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Device Id\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"f9b826a5-431f-4c0d-9218-066651a07c8d\"}"},"issue_count":"String","issue_count.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Issue Count\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"eef5ab9f-ec69-4f64-8493-10bb7371acaf\"}"},"operational_status":"String","operational_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"\",\"label\":\"Operational Status\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"100\",\"uiUniqueId\":\"428777e0-2855-4d55-ae73-159f698a6f7a\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Not Successful\":\"{\\\"label\\\":\\\"Not Successful\\\",\\\"value\\\":\\\"Not Successful\\\",\\\"order\\\":3}\",\"Successful\":\"{\\\"label\\\":\\\"Successful\\\",\\\"value\\\":\\\"Successful\\\",\\\"order\\\":2}\",\"Processing\":\"{\\\"label\\\":\\\"Processing\\\",\\\"value\\\":\\\"Processing\\\",\\\"order\\\":1}\"}}"},"issue_link":"String","issue_link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Issue Link\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"558d99ad-61b1-4dfe-b772-1c0be1d929e8\"}"},"last_status":"String","last_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Status\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\",\"uiUniqueId\":\"37527280-64af-4647-8478-dece4588c894\"}"},"device_class":"String","device_class.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Device Class\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\",\"uiUniqueId\":\"bd59c7de-81f8-44ec-b166-9cc01f1aca33\"}"},"ip_address":"String","ip_address.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Source Address\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"50b7aefe-759e-4f50-94cd-27f22e9b252b\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Discovery Result\",\"mandatory\":\"false\",\"child_name\":\"device\",\"uiUniqueId\":\"b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD7018760bc917f410733e802d458e9f82\",\"child_label\":\"Device\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9c202874-43cf-4e95-a97c-3d23de0aa091\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD7018760bc917f410733e802d458e9f82.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Discovery Result\",\"mandatory\":\"false\",\"child_name\":\"device\",\"uiUniqueId\":\"b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD7018760bc917f410733e802d458e9f82\",\"child_label\":\"Device\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9c202874-43cf-4e95-a97c-3d23de0aa091\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3418760b2f17f410ba1b52492799b682</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:02:59</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1605,6 +1585,29 @@
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e818760b2f17f410ba1b52492799b65c"/>
     <sys_hub_action_output action="delete_multiple" query="model=2c18760b2f17f410ba1b52492799b60e^sys_idNOT IN4518760b2f17f410ba1b52492799b6a4,8918760b2f17f410ba1b52492799b69d"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD3818760ba717f410a6c11bf043a0669a</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>b1c1764f2fd3f410ba1b52492799b608</scope_name>
+        <serialized_content>{"FlowDesigner:FD3818760ba717f410a6c11bf043a0669a":{"$COCollectionField":[{"device":{"cmdb_device":"String","cmdb_device.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Device Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"f9b826a5-431f-4c0d-9218-066651a07c8d\"}"},"issue_count":"String","issue_count.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Issue Count\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"eef5ab9f-ec69-4f64-8493-10bb7371acaf\"}"},"operational_status":"String","operational_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"\",\"label\":\"Operational Status\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"100\",\"uiUniqueId\":\"428777e0-2855-4d55-ae73-159f698a6f7a\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Not Successful\":\"{\\\"label\\\":\\\"Not Successful\\\",\\\"value\\\":\\\"Not Successful\\\",\\\"order\\\":3}\",\"Successful\":\"{\\\"label\\\":\\\"Successful\\\",\\\"value\\\":\\\"Successful\\\",\\\"order\\\":2}\",\"Processing\":\"{\\\"label\\\":\\\"Processing\\\",\\\"value\\\":\\\"Processing\\\",\\\"order\\\":1}\"}}"},"issue_link":"String","issue_link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Issue Link\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"558d99ad-61b1-4dfe-b772-1c0be1d929e8\"}"},"last_status":"String","last_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Status\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"37527280-64af-4647-8478-dece4588c894\"}"},"device_class":"String","device_class.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Device Class\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"bd59c7de-81f8-44ec-b166-9cc01f1aca33\"}"},"ip_address":"String","ip_address.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Source Address\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"50b7aefe-759e-4f50-94cd-27f22e9b252b\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"3c34fa15-1627-4201-9ce4-90e262711dc6\",\"default_value\":\"\",\"label\":\"Discovery Result\",\"mandatory\":\"true\",\"child_name\":\"device\",\"uiUniqueId\":\"474538b0-48dc-4f3e-ab4f-183d3b0376a3\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD3818760ba717f410a6c11bf043a0669a\",\"child_label\":\"Device\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9c202874-43cf-4e95-a97c-3d23de0aa091\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD3818760ba717f410a6c11bf043a0669a.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"3c34fa15-1627-4201-9ce4-90e262711dc6\",\"default_value\":\"\",\"label\":\"Discovery Result\",\"mandatory\":\"true\",\"child_name\":\"device\",\"uiUniqueId\":\"474538b0-48dc-4f3e-ab4f-183d3b0376a3\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD3818760ba717f410a6c11bf043a0669a\",\"child_label\":\"Device\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9c202874-43cf-4e95-a97c-3d23de0aa091\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 10:01:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f818760b2f17f410ba1b52492799b69a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 14:04:19</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1796,7 +1799,7 @@
         <sys_id>6818760b2f17f410ba1b52492799b668</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Discovery Status</sys_name>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2c18760b2f17f410ba1b52492799b60e_discovery_status_en</sys_update_name>
@@ -1849,7 +1852,7 @@
         <sys_id>4118760b2f17f410ba1b52492799b6b6</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Discovery Result</sys_name>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e_discovery_result_en</sys_update_name>
@@ -1900,7 +1903,7 @@
         <sys_id>8118760b2f17f410ba1b52492799b6a3</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Count</sys_name>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2c18760b2f17f410ba1b52492799b60e_count_en</sys_update_name>

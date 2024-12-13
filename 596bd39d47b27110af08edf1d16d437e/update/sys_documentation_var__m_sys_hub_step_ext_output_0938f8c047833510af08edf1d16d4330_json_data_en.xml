@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="json_data" label="JSON Data" language="en" table="var__m_sys_hub_step_ext_output_0938f8c047833510af08edf1d16d4330">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>json_data</element>
+            <help/>
+            <hint/>
+            <label>JSON Data</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_0938f8c047833510af08edf1d16d4330</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-06 15:30:27</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>JSON Data</sys_name>
+            <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_0938f8c047833510af08edf1d16d4330_json_data_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-06 15:30:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

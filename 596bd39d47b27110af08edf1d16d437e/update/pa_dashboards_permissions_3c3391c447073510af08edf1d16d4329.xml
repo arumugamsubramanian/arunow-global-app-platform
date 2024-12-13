@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
-        <dashboard display_value="My Virtual Assets">10d123f0eb0002004d7763fba206fe4c</dashboard>
+        <dashboard display_value="">10d123f0eb0002004d7763fba206fe4c</dashboard>
         <delete>false</delete>
         <group/>
         <identity>cloud_user</identity>
         <read>true</read>
-        <role display_value="cloud_user" name="cloud_user">a430873137113000f5bf1f23dfbe5d9b</role>
+        <role display_value="">a430873137113000f5bf1f23dfbe5d9b</role>
         <sys_class_name>pa_dashboards_permissions</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-06 17:28:24</sys_created_on>

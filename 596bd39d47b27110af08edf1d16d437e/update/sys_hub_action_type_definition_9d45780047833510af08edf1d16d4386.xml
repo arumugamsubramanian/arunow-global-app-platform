@@ -7,15 +7,19 @@
         <active>true</active>
         <annotation>common action to download the file from the GitHub repo read the CSV file and send the output as an array of objects
 Author: Arumugam Subramanian</annotation>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="GitHub">90a8d3474743f110af08edf1d16d4386</category>
         <copied_from/>
         <copied_from_name/>
         <description>common action to download the file from the GitHub repo read the CSV file and send the output as an array of objects</description>
+        <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>download_file_from_github_public_repository</internal_name>
         <label_cache>[{"name":"{{action.file_download_url}}","label":"action➛File Download URL","type":"action","ref":"","reference_display":"","base_type":"url","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9826ce37-5325-43f5-bd16-88084a77f6f5].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[ddf0298b-389c-40db-8f92-ef8cb572d766].json_data}}","label":"step➛Script step➛JSON Data","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"216a1a40-eba8-414e-a943-733dfce799e5"}}]</label_cache>
         <master_snapshot>fec8b40447833510af08edf1d16d43cd</master_snapshot>
+        <master_snapshot_digest/>
         <name>Download file from GitHub Public Repository</name>
         <natlang/>
         <outputs/>
@@ -28,7 +32,7 @@ Author: Arumugam Subramanian</annotation>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9d45780047833510af08edf1d16d4386</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Download file from GitHub Public Repository</sys_name>
         <sys_overrides/>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
@@ -36,7 +40,7 @@ Author: Arumugam Subramanian</annotation>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_9d45780047833510af08edf1d16d4386</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-16 10:53:31</sys_updated_on>
+        <sys_updated_on>2024-12-13 11:44:08</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -392,11 +396,11 @@ outputs.json_data = jsonString&#13;
         <sys_created_on>2023-12-06 15:30:27</sys_created_on>
         <sys_id>0d38f8c047833510af08edf1d16d433e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON Data</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_0938f8c047833510af08edf1d16d4330_json_data_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-06 15:30:27</sys_updated_on>
         <url/>
@@ -1024,11 +1028,11 @@ outputs.json_data = jsonString&#13;
         <sys_created_on>2023-12-06 15:18:14</sys_created_on>
         <sys_id>4e65f80047833510af08edf1d16d43c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>File Download URL</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9d45780047833510af08edf1d16d4386_file_download_url_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-06 15:18:14</sys_updated_on>
         <url/>
@@ -1049,11 +1053,11 @@ outputs.json_data = jsonString&#13;
         <sys_created_on>2023-12-06 15:31:04</sys_created_on>
         <sys_id>c6587cc047833510af08edf1d16d43d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON Data</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9d45780047833510af08edf1d16d4386_json_data_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-06 15:31:04</sys_updated_on>
         <url/>
@@ -1072,11 +1076,11 @@ outputs.json_data = jsonString&#13;
         <sys_created_on>2023-12-06 15:20:53</sys_created_on>
         <sys_id>f006b44047833510af08edf1d16d4369</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9d45780047833510af08edf1d16d4386___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-06 15:20:53</sys_updated_on>
         <url/>
@@ -1095,11 +1099,11 @@ outputs.json_data = jsonString&#13;
         <sys_created_on>2023-12-06 15:20:53</sys_created_on>
         <sys_id>fc06b44047833510af08edf1d16d436e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9d45780047833510af08edf1d16d4386___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-06 15:20:53</sys_updated_on>
         <url/>
@@ -1129,11 +1133,14 @@ outputs.json_data = jsonString&#13;
         <action_template/>
         <annotation>common action to download the file from the GitHub repo read the CSV file and send the output as an array of objects
 Author: Arumugam Subramanian</annotation>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="GitHub">90a8d3474743f110af08edf1d16d4386</category>
         <copied_from/>
         <copied_from_name/>
         <description>common action to download the file from the GitHub repo read the CSV file and send the output as an array of objects</description>
+        <flow_priority/>
         <internal_name>download_file_from_github_public_repository</internal_name>
         <label_cache>[{"name":"{{action.file_download_url}}","label":"action➛File Download URL","type":"action","ref":"","reference_display":"","base_type":"url","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9826ce37-5325-43f5-bd16-88084a77f6f5].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[ddf0298b-389c-40db-8f92-ef8cb572d766].json_data}}","label":"step➛Script step➛JSON Data","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"216a1a40-eba8-414e-a943-733dfce799e5"}}]</label_cache>
         <master>true</master>
@@ -1512,11 +1519,11 @@ outputs.json_data = jsonString&#13;
         <sys_created_on>2023-12-06 15:33:02</sys_created_on>
         <sys_id>fac8b40447833510af08edf1d16d43f4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON Data</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_36c8b40447833510af08edf1d16d43ea_json_data_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-06 15:33:02</sys_updated_on>
         <url/>
@@ -2144,11 +2151,11 @@ outputs.json_data = jsonString&#13;
         <sys_created_on>2023-12-06 15:33:02</sys_created_on>
         <sys_id>7ac8b40447833510af08edf1d16d43d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>File Download URL</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fec8b40447833510af08edf1d16d43cd_file_download_url_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-06 15:33:02</sys_updated_on>
         <url/>
@@ -2169,11 +2176,11 @@ outputs.json_data = jsonString&#13;
         <sys_created_on>2023-12-06 15:33:02</sys_created_on>
         <sys_id>83c8b40447833510af08edf1d16d43ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON Data</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fec8b40447833510af08edf1d16d43cd_json_data_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-06 15:33:02</sys_updated_on>
         <url/>
@@ -2192,11 +2199,11 @@ outputs.json_data = jsonString&#13;
         <sys_created_on>2023-12-06 15:33:02</sys_created_on>
         <sys_id>83c8f40447833510af08edf1d16d4308</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fec8b40447833510af08edf1d16d43cd___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-06 15:33:02</sys_updated_on>
         <url/>
@@ -2215,11 +2222,11 @@ outputs.json_data = jsonString&#13;
         <sys_created_on>2023-12-06 15:33:02</sys_created_on>
         <sys_id>8fc8f40447833510af08edf1d16d4302</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fec8b40447833510af08edf1d16d43cd___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-06 15:33:02</sys_updated_on>
         <url/>

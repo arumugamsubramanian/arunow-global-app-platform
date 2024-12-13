@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_module_key_policy">
     <sys_kmf_module_key_policy action="INSERT_OR_UPDATE">
-        <crypto_module display_value="com_glide_external_app_glideencrypter">df93a2415322201040d8ddeeff7b1251</crypto_module>
+        <crypto_module display_value="global.com_glide_external_app_glideencrypter">df93a2415322201040d8ddeeff7b1251</crypto_module>
         <key_type display_value="Symmetric Key Encryption Key">ca005cf7c7103300af4d43c6f0976328</key_type>
         <last_enforced>2023-11-30 12:52:46</last_enforced>
         <result>reject</result>

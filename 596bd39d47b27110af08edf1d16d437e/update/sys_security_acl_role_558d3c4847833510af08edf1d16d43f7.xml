@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-06 15:53:40</sys_updated_on>
         <sys_user_role display_value="u_gold_price_tracker_table_user" name="u_gold_price_tracker_table_user">458df44847833510af08edf1d16d436a</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

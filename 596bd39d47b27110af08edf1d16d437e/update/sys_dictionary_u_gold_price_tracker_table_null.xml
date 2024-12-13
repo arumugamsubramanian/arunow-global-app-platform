@@ -71,4 +71,18 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_dictionary>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</claim_owner_scope>
+        <claim_timestamp>193bff6ad2c0000001</claim_timestamp>
+        <metadata_update_name>sys_dictionary_u_gold_price_tracker_table_NULL</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>AruNow Global Application Platform</previous_claim_name>
+        <previous_claim_scope>596bd39d47b27110af08edf1d16d437e</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 12:20:34</sys_created_on>
+        <sys_id>98c5818c53a61210b1895eb0a0490e3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 12:20:34</sys_updated_on>
+    </sys_claim>
 </record_update>

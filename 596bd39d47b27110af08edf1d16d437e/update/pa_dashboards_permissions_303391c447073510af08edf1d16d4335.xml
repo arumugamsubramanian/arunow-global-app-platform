@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
-        <dashboard display_value="ROI Predicted Savings">3677cd36d7700200f215a5f75e6103fe</dashboard>
+        <dashboard display_value="">3677cd36d7700200f215a5f75e6103fe</dashboard>
         <delete>false</delete>
         <group/>
         <identity>orchestration_manager</identity>
         <read>true</read>
-        <role display_value="orchestration_manager" name="orchestration_manager">07c9fce3d7000200f215a5f75e6103f9</role>
+        <role display_value="">07c9fce3d7000200f215a5f75e6103f9</role>
         <sys_class_name>pa_dashboards_permissions</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-06 17:28:24</sys_created_on>

@@ -10,7 +10,11 @@
         <managed_breakdown/>
         <managed_publisher/>
         <name>Gold Price Tracker</name>
+        <no_bulk_migration>false</no_bulk_migration>
         <no_tabs>false</no_tabs>
+        <notification_link_label/>
+        <notification_link_url/>
+        <notification_text/>
         <order/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <restrict_to_roles/>

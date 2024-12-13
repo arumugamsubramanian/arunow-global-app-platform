@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description>Test Playbook</description>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>Test</label>
+        <name>test</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 12:17:44</sys_created_on>
+        <sys_id>fe15c14c53a61210b1895eb0a0490ee9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_pd_process_definition_fe15c14c53a61210b1895eb0a0490ee9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 12:18:23</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="DELETE" query="documentkey=fe15c14c53a61210b1895eb0a0490ee9"/>
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description>Test Playbook</description>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>Test</label>
+        <name>test</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 12:17:44</sys_created_on>
+        <sys_id>fe15c14c53a61210b1895eb0a0490ee9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name>sys_pd_process_definition_fe15c14c53a61210b1895eb0a0490ee9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 12:18:23</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="DELETE" query="documentkey=fe15c14c53a61210b1895eb0a0490ee9"/>
+    <sys_pd_lane action="DELETE" query="process_definition=fe15c14c53a61210b1895eb0a0490ee9^sys_idNOT IN4342e504344eb0434b830434c1604344"/>
+    <sys_pd_lane action="DELETE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Test 1</label>
+        <lane_condition/>
+        <name>new_stage</name>
+        <order>1</order>
+        <process_definition display_value="Test">fe15c14c53a61210b1895eb0a0490ee9</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 12:18:01</sys_created_on>
+        <sys_id>4342e504344eb0434b830434c1604344</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 12:18:09</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="DELETE" query="documentkey=4342e504344eb0434b830434c1604344"/>
+    <sys_variable_value action="DELETE" query="document_key=4342e504344eb0434b830434c1604344"/>
+    <sys_pd_activity action="DELETE" query="process_definition=fe15c14c53a61210b1895eb0a0490ee9^sys_idNOT IN583885a05838cf3058383dd05838a800"/>
+    <sys_pd_activity action="DELETE">
+        <active>true</active>
+        <activity_definition display_value="Decision">226ed8f6c7ad5110bfbaf89f51c260b1</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description/>
+        <inputs/>
+        <label>Decision</label>
+        <lane display_value="Test 1">4342e504344eb0434b830434c1604344</lane>
+        <name>decision</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="Test">fe15c14c53a61210b1895eb0a0490ee9</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 12:18:22</sys_created_on>
+        <sys_id>583885a05838cf3058383dd05838a800</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 12:18:22</sys_updated_on>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_translated_text action="DELETE" query="documentkey=583885a05838cf3058383dd05838a800"/>
+    <sys_variable_value action="DELETE" query="document_key=583885a05838cf3058383dd05838a800"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>583885a05838cf3058383dd05838a800</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 12:18:22</sys_created_on>
+        <sys_id>0845094c53a61210b1895eb0a0490e49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 12:18:22</sys_updated_on>
+        <value>match_first</value>
+        <variable display_value="Type">0f4e18f6c7ad5110bfbaf89f51c260f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity</document>
+        <document_key>583885a05838cf3058383dd05838a800</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 12:18:22</sys_created_on>
+        <sys_id>cc45094c53a61210b1895eb0a0490e48</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 12:18:22</sys_updated_on>
+        <value>[{"id":"583836c05838d3c0583840d05838e4f0","label":"New branch","condition":"","order":1},{"id":"ELSE","label":"Else","condition":"","order":2}]</value>
+        <variable display_value="Branches">074e5876c7ad5110bfbaf89f51c26087</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_input_401bd436c7ad5110bfbaf89f51c260be^id=583885a05838cf3058383dd05838a800"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_output_401bd436c7ad5110bfbaf89f51c260be^id=583885a05838cf3058383dd05838a800"/>
+    <sys_pd_process_variant action="DELETE" query="process_definition=fe15c14c53a61210b1895eb0a0490ee9"/>
+    <sys_pd_derivative action="DELETE" query="derivative_parent=583885a05838cf3058383dd05838a800"/>
+    <sys_pd_activity_override action="DELETE" query="override_parent=583885a05838cf3058383dd05838a800"/>
+    <sys_pd_snapshot action="DELETE" query="sys_id="/>
+    <sys_json_chunk action="DELETE" query="document_id="/>
+    <sys_pd_snapshot_chunk action="DELETE" query="document_id="/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</application>
+        <file_path/>
+        <instance_id>344e8a151b8906d07d9d2f8dee4bcbf2</instance_id>
+        <instance_name>dev244514</instance_name>
+        <name>sys_pd_process_definition_fe15c14c53a61210b1895eb0a0490ee9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition"><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description>Test Playbook</description><designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state><engine_major_version/><label>Test</label><name>test</name><now_assist_prompt/><process_type/><restartable>RESTARTABLE_FALSE</restartable><run_on_pad_engine>false</run_on_pad_engine><schema_version>2</schema_version><snapshot/><start_non_blocking>true</start_non_blocking><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-13 12:17:44</sys_created_on><sys_id>fe15c14c53a61210b1895eb0a0490ee9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test</sys_name><sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package><sys_policy/><sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope><sys_update_name>sys_pd_process_definition_fe15c14c53a61210b1895eb0a0490ee9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-13 12:18:23</sys_updated_on><view_type>DIAGRAM</view_type></sys_pd_process_definition><sys_translated_text action="delete_multiple" query="documentkey=fe15c14c53a61210b1895eb0a0490ee9"/><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description>Test Playbook</description><designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state><engine_major_version/><label>Test</label><name>test</name><now_assist_prompt/><process_type/><restartable>RESTARTABLE_FALSE</restartable><run_on_pad_engine>false</run_on_pad_engine><schema_version>2</schema_version><snapshot/><start_non_blocking>true</start_non_blocking><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-13 12:17:44</sys_created_on><sys_id>fe15c14c53a61210b1895eb0a0490ee9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test</sys_name><sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package><sys_policy/><sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope><sys_update_name>sys_pd_process_definition_fe15c14c53a61210b1895eb0a0490ee9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-13 12:18:23</sys_updated_on><view_type>DIAGRAM</view_type></sys_pd_process_definition><sys_translated_text action="delete_multiple" query="documentkey=fe15c14c53a61210b1895eb0a0490ee9"/><sys_pd_lane action="delete_multiple" query="process_definition=fe15c14c53a61210b1895eb0a0490ee9^sys_idNOT IN4342e504344eb0434b830434c1604344"/><sys_pd_lane action="INSERT_OR_UPDATE"><active>true</active><condition_to_run/><description/><label>Test 1</label><lane_condition/><name>new_stage</name><order>1</order><process_definition display_value="Test">fe15c14c53a61210b1895eb0a0490ee9</process_definition><restart_rule>RUN_ONLY_ONCE</restart_rule><start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule><start_rule_vars/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-13 12:18:01</sys_created_on><sys_id>4342e504344eb0434b830434c1604344</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-13 12:18:09</sys_updated_on><visible_rule/></sys_pd_lane><sys_translated_text action="delete_multiple" query="documentkey=4342e504344eb0434b830434c1604344"/><sys_variable_value action="delete_multiple" query="document_key=4342e504344eb0434b830434c1604344"/><sys_pd_activity action="delete_multiple" query="process_definition=fe15c14c53a61210b1895eb0a0490ee9^sys_idNOT IN583885a05838cf3058383dd05838a800"/><sys_pd_activity action="INSERT_OR_UPDATE"><active>true</active><activity_definition display_value="Decision">226ed8f6c7ad5110bfbaf89f51c260b1</activity_definition><condition_to_run/><derivative_order/><derivative_parent/><description/><inputs/><label>Decision</label><lane display_value="Test 1">4342e504344eb0434b830434c1604344</lane><name>decision</name><order>1</order><outputs/><process_definition display_value="Test">fe15c14c53a61210b1895eb0a0490ee9</process_definition><restart_rule>RUN_ONLY_ONCE</restart_rule><start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule><start_rule_vars/><swim_lane/><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-13 12:18:22</sys_created_on><sys_id>583885a05838cf3058383dd05838a800</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-13 12:18:22</sys_updated_on><type_vals/><variant/></sys_pd_activity><sys_translated_text action="delete_multiple" query="documentkey=583885a05838cf3058383dd05838a800"/><sys_variable_value action="delete_multiple" query="document_key=583885a05838cf3058383dd05838a800"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>583885a05838cf3058383dd05838a800</document_key><order>2</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-13 12:18:22</sys_created_on><sys_id>0845094c53a61210b1895eb0a0490e49</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-13 12:18:22</sys_updated_on><value>match_first</value><variable display_value="Type">0f4e18f6c7ad5110bfbaf89f51c260f0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity</document><document_key>583885a05838cf3058383dd05838a800</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-13 12:18:22</sys_created_on><sys_id>cc45094c53a61210b1895eb0a0490e48</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-13 12:18:22</sys_updated_on><value>[{"id":"583836c05838d3c0583840d05838e4f0","label":"New branch","condition":"","order":1},{"id":"ELSE","label":"Else","condition":"","order":2}]</value><variable display_value="Branches">074e5876c7ad5110bfbaf89f51c26087</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_401bd436c7ad5110bfbaf89f51c260be^id=583885a05838cf3058383dd05838a800"/><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_401bd436c7ad5110bfbaf89f51c260be^id=583885a05838cf3058383dd05838a800"/><sys_pd_process_variant action="delete_multiple" query="process_definition=fe15c14c53a61210b1895eb0a0490ee9"/><sys_pd_derivative action="delete_multiple" query="derivative_parent=583885a05838cf3058383dd05838a800"/><sys_pd_activity_override action="delete_multiple" query="override_parent=583885a05838cf3058383dd05838a800"/><sys_pd_snapshot action="delete_multiple" query="sys_id="/><sys_json_chunk action="delete_multiple" query="document_id="/><sys_pd_snapshot_chunk action="delete_multiple" query="document_id="/></record_update>]]></payload>
+        <payload_hash>-1543676121</payload_hash>
+        <record_name>Test</record_name>
+        <reverted_from/>
+        <source>edad340053a61210b1895eb0a0490e79</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-12-13 12:18:23</sys_created_on>
+        <sys_id>5045094c53a61210b1895eb0a0490e69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193bff4ac590000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-12-13 12:18:23</sys_updated_on>
+        <type>Process Definition</type>
+        <update_guid>1845094cb3a61210d61d02cd54131368</update_guid>
+        <update_guid_history>1845094cb3a61210d61d02cd54131368:-1543676121,7435c54c7ea61210ad0e6ec9c69b9e6a:615916453,cf25854c82a6121048293d9bea9374b3:-1694618962,f215c14c75a612104384628ab7ebf0ef:766025565</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 12:19:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_process_definition">sys_pd_process_definition</sys_db_object>
+        <sys_id>eb2618ad2ef040d8ad95eac3ad577864</sys_id>
+        <sys_metadata>fe15c14c53a61210b1895eb0a0490ee9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_scope_delete display_value="">090ab42c67e9426fa2a7b5d557255e61</sys_scope_delete>
+        <sys_update_name>sys_pd_process_definition_fe15c14c53a61210b1895eb0a0490ee9</sys_update_name>
+        <sys_update_version display_value="sys_pd_process_definition_fe15c14c53a61210b1895eb0a0490ee9">5045094c53a61210b1895eb0a0490e69</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 12:19:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -6,6 +6,8 @@
         <action_template/>
         <active>true</active>
         <annotation>Use this action to generate a table record link to be used within journal fields, html supporting fields etc.</annotation>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>693f2a212fc6d0901c43bed72799b688</copied_from>
@@ -21,10 +23,12 @@
 &lt;br/&gt;
 &lt;b&gt;Output:&lt;/b&gt;&lt;br/&gt;
 Different links to be used in the Native UI (used by ITIL users) and Portals (used by end users)&lt;/p&gt;</description>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>copy_of_generate_table_record_link</internal_name>
         <label_cache>[{"name":"{{action.tablename}}","label":"action➛tableName","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.recordsysid}}","label":"action➛recordSysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.linkdisplayname}}","label":"action➛linkDisplayName","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.link_type}}","label":"action➛Link Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.table_name}}","label":"action➛Table Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.record_sysid}}","label":"action➛Record SysID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.link_display_name}}","label":"action➛Link Display Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.portal_url_suffix}}","label":"action➛Portal URL Suffix","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].link}}","label":"step➛Script step➛link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].ui_journal_link}}","label":"step➛Script step➛UI Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].native_ui_journal}}","label":"step➛Script step➛UI Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].ui_html_link}}","label":"step➛Script step➛UI HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].native_ui_html}}","label":"step➛Script step➛UI HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_journal_link}}","label":"step➛Script step➛Portal Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_journal}}","label":"step➛Script step➛Portal Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_html_link}}","label":"step➛Script step➛Portal HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_html}}","label":"step➛Script step➛Portal HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>abd27f1e47f23110af08edf1d16d43f4</master_snapshot>
+        <master_snapshot_digest/>
         <name>Generate Table Record Link</name>
         <natlang/>
         <outputs/>
@@ -37,7 +41,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d8d2fb1e47f23110af08edf1d16d4371</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Generate Table Record Link</sys_name>
         <sys_overrides/>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
@@ -45,7 +49,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d8d2fb1e47f23110af08edf1d16d4371</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-02 04:06:43</sys_updated_on>
+        <sys_updated_on>2024-12-13 11:44:18</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -264,18 +268,6 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=acd2fb1e47f23110af08edf1d16d4398"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>acd2fb1e47f23110af08edf1d16d4398</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-01 18:36:25</sys_created_on>
-        <sys_id>20d2fb1e47f23110af08edf1d16d43d6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-01 18:36:25</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>linkdisplayname</field>
         <id>acd2fb1e47f23110af08edf1d16d4398</id>
         <sys_created_by>admin</sys_created_by>
@@ -298,18 +290,6 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_updated_on>2023-12-01 18:36:25</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_acd2fb1e47f23110af08edf1d16d4398</table>
         <value>{{action.record_sysid}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>acd2fb1e47f23110af08edf1d16d4398</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-01 18:36:25</sys_created_on>
-        <sys_id>e4d2fb1e47f23110af08edf1d16d43d6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-01 18:36:25</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>tablename</field>
@@ -1019,11 +999,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:25</sys_created_on>
         <sys_id>60d2fb1e47f23110af08edf1d16d43ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>portal_journal</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_acd2fb1e47f23110af08edf1d16d4398_portal_journal_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:25</sys_updated_on>
         <url/>
@@ -1042,11 +1022,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:25</sys_created_on>
         <sys_id>64d2fb1e47f23110af08edf1d16d43c7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>native_ui_journal</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_acd2fb1e47f23110af08edf1d16d4398_native_ui_journal_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:25</sys_updated_on>
         <url/>
@@ -1065,11 +1045,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:25</sys_created_on>
         <sys_id>e4d2fb1e47f23110af08edf1d16d43d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>portal_html</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_acd2fb1e47f23110af08edf1d16d4398_portal_html_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:25</sys_updated_on>
         <url/>
@@ -1088,11 +1068,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:25</sys_created_on>
         <sys_id>e8d2fb1e47f23110af08edf1d16d43ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>native_ui_html</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_acd2fb1e47f23110af08edf1d16d4398_native_ui_html_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:25</sys_updated_on>
         <url/>
@@ -1784,6 +1764,29 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=78d2fb1e47f23110af08edf1d16d43eb"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=78d2fb1e47f23110af08edf1d16d43eb"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD24d2fb1eb0f23110147edc655d2453db</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>596bd39d47b27110af08edf1d16d437e</scope_name>
+        <serialized_content>{"FlowDesigner:FD24d2fb1eb0f23110147edc655d2453db":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD24d2fb1eb0f23110147edc655d2453db.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d3b6084a-9c5e-4140-8b46-13fce15a84f7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD24d2fb1eb0f23110147edc655d2453db\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"5\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 18:36:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28d2fb1e47f23110af08edf1d16d43db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 18:36:36</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1984,11 +1987,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:25</sys_created_on>
         <sys_id>60d2fb1e47f23110af08edf1d16d437c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d8d2fb1e47f23110af08edf1d16d4371_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:25</sys_updated_on>
         <url/>
@@ -2007,11 +2010,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:25</sys_created_on>
         <sys_id>a4d2fb1e47f23110af08edf1d16d4390</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Link Display Name</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d8d2fb1e47f23110af08edf1d16d4371_link_display_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:25</sys_updated_on>
         <url/>
@@ -2030,11 +2033,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:25</sys_created_on>
         <sys_id>e0d2fb1e47f23110af08edf1d16d4396</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Portal URL Suffix</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d8d2fb1e47f23110af08edf1d16d4371_portal_url_suffix_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:25</sys_updated_on>
         <url/>
@@ -2053,11 +2056,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:25</sys_created_on>
         <sys_id>e4d2fb1e47f23110af08edf1d16d438c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record SysID</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d8d2fb1e47f23110af08edf1d16d4371_record_sysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:25</sys_updated_on>
         <url/>
@@ -2078,11 +2081,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:26</sys_created_on>
         <sys_id>b8d2fb1e47f23110af08edf1d16d43f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d8d2fb1e47f23110af08edf1d16d4371___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:26</sys_updated_on>
         <url/>
@@ -2101,11 +2104,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:26</sys_created_on>
         <sys_id>f4d2fb1e47f23110af08edf1d16d43f8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d8d2fb1e47f23110af08edf1d16d4371___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:26</sys_updated_on>
         <url/>
@@ -2124,11 +2127,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:26</sys_created_on>
         <sys_id>f8d2fb1e47f23110af08edf1d16d43e2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Native UI Journal Link</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d8d2fb1e47f23110af08edf1d16d4371_native_ui_journal_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:26</sys_updated_on>
         <url/>
@@ -2147,11 +2150,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:26</sys_created_on>
         <sys_id>f8d2fb1e47f23110af08edf1d16d43e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Native UI HTML Link</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d8d2fb1e47f23110af08edf1d16d4371_native_ui_html_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:26</sys_updated_on>
         <url/>
@@ -2170,11 +2173,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:26</sys_created_on>
         <sys_id>f8d2fb1e47f23110af08edf1d16d43ea</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Portal Journal Link</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d8d2fb1e47f23110af08edf1d16d4371_portal_journal_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:26</sys_updated_on>
         <url/>
@@ -2193,11 +2196,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:26</sys_created_on>
         <sys_id>f8d2fb1e47f23110af08edf1d16d43ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Portal HTML Link</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d8d2fb1e47f23110af08edf1d16d4371_portal_html_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:26</sys_updated_on>
         <url/>
@@ -2226,6 +2229,8 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <action_status/>
         <action_template/>
         <annotation>Use this action to generate a table record link to be used within journal fields, html supporting fields etc.</annotation>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>693f2a212fc6d0901c43bed72799b688</copied_from>
@@ -2241,6 +2246,7 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
 &lt;br/&gt;
 &lt;b&gt;Output:&lt;/b&gt;&lt;br/&gt;
 Different links to be used in the Native UI (used by ITIL users) and Portals (used by end users)&lt;/p&gt;</description>
+        <flow_priority/>
         <internal_name>copy_of_generate_table_record_link</internal_name>
         <label_cache>[{"name":"{{action.tablename}}","label":"action➛tableName","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.recordsysid}}","label":"action➛recordSysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.linkdisplayname}}","label":"action➛linkDisplayName","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.link_type}}","label":"action➛Link Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.table_name}}","label":"action➛Table Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.record_sysid}}","label":"action➛Record SysID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.link_display_name}}","label":"action➛Link Display Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.portal_url_suffix}}","label":"action➛Portal URL Suffix","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].link}}","label":"step➛Script step➛link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].ui_journal_link}}","label":"step➛Script step➛UI Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].native_ui_journal}}","label":"step➛Script step➛UI Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].ui_html_link}}","label":"step➛Script step➛UI HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].native_ui_html}}","label":"step➛Script step➛UI HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_journal_link}}","label":"step➛Script step➛Portal Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_journal}}","label":"step➛Script step➛Portal Journal Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_html_link}}","label":"step➛Script step➛Portal HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[127e395c-f791-4b7f-afc4-3dde5a50c27d].portal_html}}","label":"step➛Script step➛Portal HTML Link","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
@@ -2482,18 +2488,6 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=67d2bf1e47f23110af08edf1d16d430b"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>67d2bf1e47f23110af08edf1d16d430b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-01 18:36:38</sys_created_on>
-        <sys_id>a7d2bf1e47f23110af08edf1d16d433a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-01 18:36:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>linkdisplayname</field>
         <id>67d2bf1e47f23110af08edf1d16d430b</id>
         <sys_created_by>admin</sys_created_by>
@@ -2516,18 +2510,6 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_updated_on>2023-12-01 18:36:38</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_67d2bf1e47f23110af08edf1d16d430b</table>
         <value>{{action.record_sysid}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>67d2bf1e47f23110af08edf1d16d430b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-01 18:36:38</sys_created_on>
-        <sys_id>6bd2bf1e47f23110af08edf1d16d433a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-01 18:36:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>tablename</field>
@@ -3237,11 +3219,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:38</sys_created_on>
         <sys_id>63d2bf1e47f23110af08edf1d16d4333</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>portal_journal</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_67d2bf1e47f23110af08edf1d16d430b_portal_journal_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:38</sys_updated_on>
         <url/>
@@ -3260,11 +3242,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:37</sys_created_on>
         <sys_id>67d2bf1e47f23110af08edf1d16d432c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>native_ui_journal</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_67d2bf1e47f23110af08edf1d16d430b_native_ui_journal_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:37</sys_updated_on>
         <url/>
@@ -3283,11 +3265,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:38</sys_created_on>
         <sys_id>e7d2bf1e47f23110af08edf1d16d4336</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>portal_html</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_67d2bf1e47f23110af08edf1d16d430b_portal_html_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:38</sys_updated_on>
         <url/>
@@ -3306,11 +3288,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:37</sys_created_on>
         <sys_id>ebd2bf1e47f23110af08edf1d16d432f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>native_ui_html</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_67d2bf1e47f23110af08edf1d16d430b_native_ui_html_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:37</sys_updated_on>
         <url/>
@@ -4202,11 +4184,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:37</sys_created_on>
         <sys_id>27d2bf1e47f23110af08edf1d16d4303</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Link Display Name</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_abd27f1e47f23110af08edf1d16d43f4_link_display_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:37</sys_updated_on>
         <url/>
@@ -4225,11 +4207,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:37</sys_created_on>
         <sys_id>2bd27f1e47f23110af08edf1d16d43ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record SysID</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_abd27f1e47f23110af08edf1d16d43f4_record_sysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:37</sys_updated_on>
         <url/>
@@ -4248,11 +4230,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:37</sys_created_on>
         <sys_id>2fd27f1e47f23110af08edf1d16d43fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_abd27f1e47f23110af08edf1d16d43f4_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:37</sys_updated_on>
         <url/>
@@ -4271,11 +4253,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:37</sys_created_on>
         <sys_id>6bd2bf1e47f23110af08edf1d16d4308</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Portal URL Suffix</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_abd27f1e47f23110af08edf1d16d43f4_portal_url_suffix_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:37</sys_updated_on>
         <url/>
@@ -4296,11 +4278,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:38</sys_created_on>
         <sys_id>2bd2bf1e47f23110af08edf1d16d435b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Native UI Journal Link</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_abd27f1e47f23110af08edf1d16d43f4_native_ui_journal_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:38</sys_updated_on>
         <url/>
@@ -4319,11 +4301,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:38</sys_created_on>
         <sys_id>37d2bf1e47f23110af08edf1d16d4377</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_abd27f1e47f23110af08edf1d16d43f4___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:38</sys_updated_on>
         <url/>
@@ -4342,11 +4324,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:38</sys_created_on>
         <sys_id>77d2bf1e47f23110af08edf1d16d435f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Native UI HTML Link</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_abd27f1e47f23110af08edf1d16d43f4_native_ui_html_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:38</sys_updated_on>
         <url/>
@@ -4365,11 +4347,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:38</sys_created_on>
         <sys_id>b3d2bf1e47f23110af08edf1d16d4363</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Portal Journal Link</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_abd27f1e47f23110af08edf1d16d43f4_portal_journal_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:38</sys_updated_on>
         <url/>
@@ -4388,11 +4370,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:38</sys_created_on>
         <sys_id>b7d2bf1e47f23110af08edf1d16d4373</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Portal HTML Link</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_abd27f1e47f23110af08edf1d16d43f4_portal_html_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:38</sys_updated_on>
         <url/>
@@ -4411,11 +4393,11 @@ Different links to be used in the Native UI (used by ITIL users) and Portals (us
         <sys_created_on>2023-12-01 18:36:38</sys_created_on>
         <sys_id>fbd2bf1e47f23110af08edf1d16d437c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_abd27f1e47f23110af08edf1d16d43f4___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-01 18:36:38</sys_updated_on>
         <url/>

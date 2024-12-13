@@ -7,15 +7,19 @@
         <active>true</active>
         <annotation>Get the list of public APIs list from https://api.publicapis.org/entries
 Author: Arumugam Subramanian</annotation>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Get the list of public APIs list from https://api.publicapis.org/entries</description>
+        <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>public_apis_list_data_stream</internal_name>
         <label_cache>[]</label_cache>
         <master_snapshot>2fb8428f47b63110af08edf1d16d4344</master_snapshot>
+        <master_snapshot_digest/>
         <name>Public Apis List Data Stream</name>
         <natlang/>
         <outputs/>
@@ -28,7 +32,7 @@ Author: Arumugam Subramanian</annotation>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b586ca8b47b63110af08edf1d16d4350</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Public Apis List Data Stream</sys_name>
         <sys_overrides/>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
@@ -36,7 +40,7 @@ Author: Arumugam Subramanian</annotation>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_b586ca8b47b63110af08edf1d16d4350</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-03 18:48:58</sys_updated_on>
+        <sys_updated_on>2024-12-13 11:44:12</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -142,7 +146,7 @@ Author: Arumugam Subramanian</annotation>
         <order>1</order>
         <outputs/>
         <section>DATASTREAM_PREPROCESS</section>
-        <step_type display_value="Action Preprocessing">235a47afcbfa2300a2fcb895634c9c04</step_type>
+        <step_type display_value="">235a47afcbfa2300a2fcb895634c9c04</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-03 18:41:23</sys_created_on>
         <sys_id>2027020f47b63110af08edf1d16d4312</sys_id>
@@ -152,7 +156,6 @@ Author: Arumugam Subramanian</annotation>
         <sys_updated_on>2023-12-03 18:41:23</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2027020f47b63110af08edf1d16d4312"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_235a47afcbfa2300a2fcb895634c9c04^id=2027020f47b63110af08edf1d16d4312"/>
     <sys_translated_text action="delete_multiple" query="documentkey=2027020f47b63110af08edf1d16d4312"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=2027020f47b63110af08edf1d16d4312"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=2027020f47b63110af08edf1d16d4312"/>
@@ -166,12 +169,11 @@ Author: Arumugam Subramanian</annotation>
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>Script Parser step</label>
         <order>6</order>
         <outputs/>
         <section>DATASTREAM_PARSING</section>
-        <step_type display_value="Script Parser">e83b26f68723230057a8ed4d87cb0b24</step_type>
+        <step_type display_value="">e83b26f68723230057a8ed4d87cb0b24</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-03 18:41:56</sys_created_on>
         <sys_id>6c47c20f47b63110af08edf1d16d4342</sys_id>
@@ -262,33 +264,8 @@ Author: Arumugam Subramanian</annotation>
 
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">688bea3e8723230057a8ed4d87cb0b05</variable>
+        <variable display_value="">688bea3e8723230057a8ed4d87cb0b05</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=6c47c20f47b63110af08edf1d16d4342"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>6c47c20f47b63110af08edf1d16d4342</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-03 18:41:56</sys_created_on>
-        <sys_id>e047c20f47b63110af08edf1d16d4348</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-03 18:41:56</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_e83b26f68723230057a8ed4d87cb0b24</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>split_stream</field>
-        <id>6c47c20f47b63110af08edf1d16d4342</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-03 18:41:56</sys_created_on>
-        <sys_id>2047c20f47b63110af08edf1d16d4348</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-03 18:41:56</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_e83b26f68723230057a8ed4d87cb0b24</table>
-        <value>{{step[d6b69f7f-953b-4ab1-a779-9d7edb3762f3].split_stream}}</value>
-    </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=6c47c20f47b63110af08edf1d16d4342"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=6c47c20f47b63110af08edf1d16d4342"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=6c47c20f47b63110af08edf1d16d4342"/>
@@ -302,12 +279,11 @@ Author: Arumugam Subramanian</annotation>
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>Splitter step</label>
         <order>5</order>
         <outputs/>
         <section>DATASTREAM_PARSING</section>
-        <step_type display_value="Splitter">f4fe7504e713230007a64caac2f6a9d0</step_type>
+        <step_type display_value="">f4fe7504e713230007a64caac2f6a9d0</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-03 18:41:56</sys_created_on>
         <sys_id>a847c20f47b63110af08edf1d16d433b</sys_id>
@@ -329,7 +305,7 @@ Author: Arumugam Subramanian</annotation>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:56</sys_updated_on>
         <value>$.entries</value>
-        <variable display_value="Item Path">1d614244e713230007a64caac2f6a989</variable>
+        <variable display_value="">1d614244e713230007a64caac2f6a989</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -343,45 +319,8 @@ Author: Arumugam Subramanian</annotation>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:56</sys_updated_on>
         <value>JSON</value>
-        <variable display_value="Source Format">56c04e04e713230007a64caac2f6a9e3</variable>
+        <variable display_value="">56c04e04e713230007a64caac2f6a9e3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=a847c20f47b63110af08edf1d16d433b"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>item_path</field>
-        <id>a847c20f47b63110af08edf1d16d433b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-03 18:41:56</sys_created_on>
-        <sys_id>6447c20f47b63110af08edf1d16d4341</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-03 18:41:56</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>split_using</field>
-        <id>a847c20f47b63110af08edf1d16d433b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-03 18:41:56</sys_created_on>
-        <sys_id>ec47c20f47b63110af08edf1d16d4340</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-03 18:41:56</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>stream</field>
-        <id>a847c20f47b63110af08edf1d16d433b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-03 18:41:56</sys_created_on>
-        <sys_id>a047c20f47b63110af08edf1d16d4341</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-03 18:41:56</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
-        <value>{{step[adfaba8b-60b0-4192-94cf-82fa1e46d13f].response_stream}}</value>
-    </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=a847c20f47b63110af08edf1d16d433b"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=a847c20f47b63110af08edf1d16d433b"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=a847c20f47b63110af08edf1d16d433b"/>
@@ -399,7 +338,7 @@ Author: Arumugam Subramanian</annotation>
         <order>4</order>
         <outputs/>
         <section>DATASTREAM_PARSING</section>
-        <step_type display_value="Parsing">1f1b8bafcbfa2300a2fcb895634c9c33</step_type>
+        <step_type display_value="">1f1b8bafcbfa2300a2fcb895634c9c33</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-03 18:41:23</sys_created_on>
         <sys_id>bc27020f47b63110af08edf1d16d4355</sys_id>
@@ -421,7 +360,7 @@ Author: Arumugam Subramanian</annotation>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:56</sys_updated_on>
         <value>json_splitter</value>
-        <variable display_value="How will you identify each record">d52e2cd677032300efb691572b1061e4</variable>
+        <variable display_value="">d52e2cd677032300efb691572b1061e4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -435,9 +374,8 @@ Author: Arumugam Subramanian</annotation>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:56</sys_updated_on>
         <value>script_parser</value>
-        <variable display_value="How will you parse each item into an object">ae4eacd677032300efb691572b106156</variable>
+        <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_1f1b8bafcbfa2300a2fcb895634c9c33^id=bc27020f47b63110af08edf1d16d4355"/>
     <sys_translated_text action="delete_multiple" query="documentkey=bc27020f47b63110af08edf1d16d4355"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=bc27020f47b63110af08edf1d16d4355"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=bc27020f47b63110af08edf1d16d4355"/>
@@ -455,7 +393,7 @@ Author: Arumugam Subramanian</annotation>
         <order>2</order>
         <outputs/>
         <section>DATASTREAM_REQUEST</section>
-        <step_type display_value="Request">21ba87afcbfa2300a2fcb895634c9c3d</step_type>
+        <step_type display_value="">21ba87afcbfa2300a2fcb895634c9c3d</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-03 18:41:23</sys_created_on>
         <sys_id>e427020f47b63110af08edf1d16d4317</sys_id>
@@ -477,9 +415,8 @@ Author: Arumugam Subramanian</annotation>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:23</sys_updated_on>
         <value>rest_step</value>
-        <variable display_value="How will you get data">d61d64d677032300efb691572b10611a</variable>
+        <variable display_value="">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_21ba87afcbfa2300a2fcb895634c9c3d^id=e427020f47b63110af08edf1d16d4317"/>
     <sys_translated_text action="delete_multiple" query="documentkey=e427020f47b63110af08edf1d16d4317"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=e427020f47b63110af08edf1d16d4317"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=e427020f47b63110af08edf1d16d4317"/>
@@ -764,11 +701,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:41:23</sys_created_on>
         <sys_id>b027020f47b63110af08edf1d16d4347</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_ec27020f47b63110af08edf1d16d431e_sn_auth_token_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:23</sys_updated_on>
         <url/>
@@ -776,6 +713,29 @@ Author: Arumugam Subramanian</annotation>
     </sys_documentation>
     <sys_hub_action_input action="delete_multiple" query="model=b586ca8b47b63110af08edf1d16d4350"/>
     <sys_hub_action_output action="delete_multiple" query="model=b586ca8b47b63110af08edf1d16d4350^sys_idNOT IN2c28c24f47b63110af08edf1d16d432d,3027020f47b63110af08edf1d16d4380,3427020f47b63110af08edf1d16d4370,3827020f47b63110af08edf1d16d4360,7027020f47b63110af08edf1d16d437c,7427020f47b63110af08edf1d16d436c,b027020f47b63110af08edf1d16d4378,b047c20f47b63110af08edf1d16d435b,b427020f47b63110af08edf1d16d4368,b827020f47b63110af08edf1d16d435b,f027020f47b63110af08edf1d16d4374,f427020f47b63110af08edf1d16d4364"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDdc28824f51b63110cd75ac86f0524ef0</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>596bd39d47b27110af08edf1d16d437e</scope_name>
+        <serialized_content>{"FlowDesigner:FDdc28824f51b63110cd75ac86f0524ef0":{"cors":"String","cors.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"cors\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"auth":"String","auth.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"auth\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"link":"String","link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"link\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"description\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"api":"String","api.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"api\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"https":"Boolean","https.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"https\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"category":"String","category.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"category\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"}},"FlowDesigner:FDdc28824f51b63110cd75ac86f0524ef0.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Public APIs List\",\"mandatory\":\"false\",\"uiUniqueId\":\"85f11667-66a0-44f9-8a27-ecd938f30cbf\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDdc28824f51b63110cd75ac86f0524ef0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"12\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-03 18:45:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d028824f47b63110af08edf1d16d43f1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-03 18:48:23</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1414,7 +1374,7 @@ Author: Arumugam Subramanian</annotation>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <element>ds_parsed_stream</element>
-        <element_prototype display_value="Parsed Stream" element="parsed_stream" name="var__m_sys_flow_step_definition_output_e83b26f68723230057a8ed4d87cb0b24">b26ca2ba8763230057a8ed4d87cb0b5b</element_prototype>
+        <element_prototype display_value="">b26ca2ba8763230057a8ed4d87cb0b5b</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -1848,11 +1808,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:41:24</sys_created_on>
         <sys_id>3427020f47b63110af08edf1d16d4377</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response_headers</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b586ca8b47b63110af08edf1d16d4350_response_headers_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:24</sys_updated_on>
         <url/>
@@ -1871,11 +1831,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:41:24</sys_created_on>
         <sys_id>3827020f47b63110af08edf1d16d4367</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>count</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b586ca8b47b63110af08edf1d16d4350_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:24</sys_updated_on>
         <url/>
@@ -1894,11 +1854,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:41:24</sys_created_on>
         <sys_id>7027020f47b63110af08edf1d16d4383</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error_code</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b586ca8b47b63110af08edf1d16d4350_error_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:24</sys_updated_on>
         <url/>
@@ -1917,11 +1877,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:41:24</sys_created_on>
         <sys_id>7427020f47b63110af08edf1d16d4373</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_output_page_variables</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b586ca8b47b63110af08edf1d16d4350_ds_output_page_variables_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:24</sys_updated_on>
         <url/>
@@ -1940,11 +1900,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:41:24</sys_created_on>
         <sys_id>7827020f47b63110af08edf1d16d4363</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Page Count</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b586ca8b47b63110af08edf1d16d4350_page_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:24</sys_updated_on>
         <url/>
@@ -1963,11 +1923,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:45:44</sys_created_on>
         <sys_id>ac28c24f47b63110af08edf1d16d4330</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Public APIs List</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b586ca8b47b63110af08edf1d16d4350_public_apis_list_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:45:44</sys_updated_on>
         <url/>
@@ -1986,11 +1946,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:41:24</sys_created_on>
         <sys_id>b027020f47b63110af08edf1d16d437f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status_code</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b586ca8b47b63110af08edf1d16d4350_status_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:24</sys_updated_on>
         <url/>
@@ -2009,11 +1969,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:41:24</sys_created_on>
         <sys_id>b427020f47b63110af08edf1d16d436f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>item</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b586ca8b47b63110af08edf1d16d4350_item_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:24</sys_updated_on>
         <url/>
@@ -2032,11 +1992,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:41:24</sys_created_on>
         <sys_id>b827020f47b63110af08edf1d16d435f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Item Count</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b586ca8b47b63110af08edf1d16d4350_item_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:24</sys_updated_on>
         <url/>
@@ -2055,11 +2015,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:41:24</sys_created_on>
         <sys_id>f027020f47b63110af08edf1d16d437b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error_message</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b586ca8b47b63110af08edf1d16d4350_error_message_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:24</sys_updated_on>
         <url/>
@@ -2078,11 +2038,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:41:56</sys_created_on>
         <sys_id>f047c20f47b63110af08edf1d16d435e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_parsed_stream</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b586ca8b47b63110af08edf1d16d4350_ds_parsed_stream_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:56</sys_updated_on>
         <url/>
@@ -2101,11 +2061,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:41:24</sys_created_on>
         <sys_id>f427020f47b63110af08edf1d16d436b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_count</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b586ca8b47b63110af08edf1d16d4350_ds_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:41:24</sys_updated_on>
         <url/>
@@ -2135,11 +2095,14 @@ Author: Arumugam Subramanian</annotation>
         <action_template>DATASTREAM</action_template>
         <annotation>Get the list of public APIs list from https://api.publicapis.org/entries
 Author: Arumugam Subramanian</annotation>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Get the list of public APIs list from https://api.publicapis.org/entries</description>
+        <flow_priority/>
         <internal_name>public_apis_list_data_stream</internal_name>
         <label_cache>[]</label_cache>
         <master>true</master>
@@ -2368,12 +2331,11 @@ Author: Arumugam Subramanian</annotation>
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>Splitter step</label>
         <order>5</order>
         <outputs/>
         <section>DATASTREAM_PARSING</section>
-        <step_type display_value="Splitter">f4fe7504e713230007a64caac2f6a9d0</step_type>
+        <step_type display_value="">f4fe7504e713230007a64caac2f6a9d0</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-03 18:48:25</sys_created_on>
         <sys_id>33b8428f47b63110af08edf1d16d4371</sys_id>
@@ -2395,7 +2357,7 @@ Author: Arumugam Subramanian</annotation>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
         <value>$.entries</value>
-        <variable display_value="Item Path">1d614244e713230007a64caac2f6a989</variable>
+        <variable display_value="">1d614244e713230007a64caac2f6a989</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2409,45 +2371,8 @@ Author: Arumugam Subramanian</annotation>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
         <value>JSON</value>
-        <variable display_value="Source Format">56c04e04e713230007a64caac2f6a9e3</variable>
+        <variable display_value="">56c04e04e713230007a64caac2f6a9e3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=33b8428f47b63110af08edf1d16d4371"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>item_path</field>
-        <id>33b8428f47b63110af08edf1d16d4371</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-03 18:48:25</sys_created_on>
-        <sys_id>3bb8428f47b63110af08edf1d16d4375</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>split_using</field>
-        <id>33b8428f47b63110af08edf1d16d4371</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-03 18:48:25</sys_created_on>
-        <sys_id>b3b8428f47b63110af08edf1d16d4375</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>stream</field>
-        <id>33b8428f47b63110af08edf1d16d4371</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-03 18:48:25</sys_created_on>
-        <sys_id>77b8428f47b63110af08edf1d16d4375</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
-        <value>{{step[adfaba8b-60b0-4192-94cf-82fa1e46d13f].response_stream}}</value>
-    </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=33b8428f47b63110af08edf1d16d4371"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=33b8428f47b63110af08edf1d16d4371"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=33b8428f47b63110af08edf1d16d4371"/>
@@ -2732,11 +2657,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:48:25</sys_created_on>
         <sys_id>abb8428f47b63110af08edf1d16d435c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_63b8428f47b63110af08edf1d16d4352_sn_auth_token_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
         <url/>
@@ -2754,7 +2679,7 @@ Author: Arumugam Subramanian</annotation>
         <order>1</order>
         <outputs/>
         <section>DATASTREAM_PREPROCESS</section>
-        <step_type display_value="Action Preprocessing">235a47afcbfa2300a2fcb895634c9c04</step_type>
+        <step_type display_value="">235a47afcbfa2300a2fcb895634c9c04</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-03 18:48:25</sys_created_on>
         <sys_id>6bb8428f47b63110af08edf1d16d4348</sys_id>
@@ -2764,7 +2689,6 @@ Author: Arumugam Subramanian</annotation>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6bb8428f47b63110af08edf1d16d4348"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_235a47afcbfa2300a2fcb895634c9c04^id=6bb8428f47b63110af08edf1d16d4348"/>
     <sys_translated_text action="delete_multiple" query="documentkey=6bb8428f47b63110af08edf1d16d4348"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=6bb8428f47b63110af08edf1d16d4348"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=6bb8428f47b63110af08edf1d16d4348"/>
@@ -2782,7 +2706,7 @@ Author: Arumugam Subramanian</annotation>
         <order>2</order>
         <outputs/>
         <section>DATASTREAM_REQUEST</section>
-        <step_type display_value="Request">21ba87afcbfa2300a2fcb895634c9c3d</step_type>
+        <step_type display_value="">21ba87afcbfa2300a2fcb895634c9c3d</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-03 18:48:25</sys_created_on>
         <sys_id>6fb8428f47b63110af08edf1d16d434c</sys_id>
@@ -2804,9 +2728,8 @@ Author: Arumugam Subramanian</annotation>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
         <value>rest_step</value>
-        <variable display_value="How will you get data">d61d64d677032300efb691572b10611a</variable>
+        <variable display_value="">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_21ba87afcbfa2300a2fcb895634c9c3d^id=6fb8428f47b63110af08edf1d16d434c"/>
     <sys_translated_text action="delete_multiple" query="documentkey=6fb8428f47b63110af08edf1d16d434c"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=6fb8428f47b63110af08edf1d16d434c"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=6fb8428f47b63110af08edf1d16d434c"/>
@@ -2824,7 +2747,7 @@ Author: Arumugam Subramanian</annotation>
         <order>4</order>
         <outputs/>
         <section>DATASTREAM_PARSING</section>
-        <step_type display_value="Parsing">1f1b8bafcbfa2300a2fcb895634c9c33</step_type>
+        <step_type display_value="">1f1b8bafcbfa2300a2fcb895634c9c33</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-03 18:48:25</sys_created_on>
         <sys_id>bbb8428f47b63110af08edf1d16d436b</sys_id>
@@ -2846,7 +2769,7 @@ Author: Arumugam Subramanian</annotation>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
         <value>json_splitter</value>
-        <variable display_value="How will you identify each record">d52e2cd677032300efb691572b1061e4</variable>
+        <variable display_value="">d52e2cd677032300efb691572b1061e4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2860,9 +2783,8 @@ Author: Arumugam Subramanian</annotation>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
         <value>script_parser</value>
-        <variable display_value="How will you parse each item into an object">ae4eacd677032300efb691572b106156</variable>
+        <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_1f1b8bafcbfa2300a2fcb895634c9c33^id=bbb8428f47b63110af08edf1d16d436b"/>
     <sys_translated_text action="delete_multiple" query="documentkey=bbb8428f47b63110af08edf1d16d436b"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=bbb8428f47b63110af08edf1d16d436b"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=bbb8428f47b63110af08edf1d16d436b"/>
@@ -2876,12 +2798,11 @@ Author: Arumugam Subramanian</annotation>
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>Script Parser step</label>
         <order>6</order>
         <outputs/>
         <section>DATASTREAM_PARSING</section>
-        <step_type display_value="Script Parser">e83b26f68723230057a8ed4d87cb0b24</step_type>
+        <step_type display_value="">e83b26f68723230057a8ed4d87cb0b24</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-03 18:48:25</sys_created_on>
         <sys_id>bfb8428f47b63110af08edf1d16d4376</sys_id>
@@ -2972,33 +2893,8 @@ Author: Arumugam Subramanian</annotation>
 
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">688bea3e8723230057a8ed4d87cb0b05</variable>
+        <variable display_value="">688bea3e8723230057a8ed4d87cb0b05</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=bfb8428f47b63110af08edf1d16d4376"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>bfb8428f47b63110af08edf1d16d4376</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-03 18:48:25</sys_created_on>
-        <sys_id>f3b8428f47b63110af08edf1d16d437b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_e83b26f68723230057a8ed4d87cb0b24</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>split_stream</field>
-        <id>bfb8428f47b63110af08edf1d16d4376</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-03 18:48:25</sys_created_on>
-        <sys_id>33b8428f47b63110af08edf1d16d437b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_e83b26f68723230057a8ed4d87cb0b24</table>
-        <value>{{step[d6b69f7f-953b-4ab1-a779-9d7edb3762f3].split_stream}}</value>
-    </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=bfb8428f47b63110af08edf1d16d4376"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=bfb8428f47b63110af08edf1d16d4376"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=bfb8428f47b63110af08edf1d16d4376"/>
@@ -3615,6 +3511,29 @@ Author: Arumugam Subramanian</annotation>
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bbb8428f47b63110af08edf1d16d4399"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=bbb8428f47b63110af08edf1d16d4399"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDb7b8428fa0b631109dcc4d157e89347c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>596bd39d47b27110af08edf1d16d437e</scope_name>
+        <serialized_content>{"FlowDesigner:FDb7b8428fa0b631109dcc4d157e89347c":{"cors":"String","cors.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"cors\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"auth":"String","auth.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"auth\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"link":"String","link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"link\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"description\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"api":"String","api.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"api\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"https":"Boolean","https.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"https\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"category":"String","category.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"category\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"}},"FlowDesigner:FDb7b8428fa0b631109dcc4d157e89347c.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDb7b8428fa0b631109dcc4d157e89347c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Public APIs List\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"65000\",\"uiUniqueId\":\"85f11667-66a0-44f9-8a27-ecd938f30cbf\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-03 18:48:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7bb8428f47b63110af08edf1d16d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3992,7 +3911,7 @@ Author: Arumugam Subramanian</annotation>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <element>ds_parsed_stream</element>
-        <element_prototype display_value="Parsed Stream" element="parsed_stream" name="var__m_sys_flow_step_definition_output_e83b26f68723230057a8ed4d87cb0b24">b26ca2ba8763230057a8ed4d87cb0b5b</element_prototype>
+        <element_prototype display_value="">b26ca2ba8763230057a8ed4d87cb0b5b</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -4078,11 +3997,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:48:25</sys_created_on>
         <sys_id>33b8428f47b63110af08edf1d16d4386</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Page Count</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2fb8428f47b63110af08edf1d16d4344_page_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
         <url/>
@@ -4101,11 +4020,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:48:25</sys_created_on>
         <sys_id>33b8428f47b63110af08edf1d16d4395</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_output_page_variables</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2fb8428f47b63110af08edf1d16d4344_ds_output_page_variables_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
         <url/>
@@ -4124,11 +4043,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:48:26</sys_created_on>
         <sys_id>33b8428f47b63110af08edf1d16d43a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error_code</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2fb8428f47b63110af08edf1d16d4344_error_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:26</sys_updated_on>
         <url/>
@@ -4147,11 +4066,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:48:25</sys_created_on>
         <sys_id>37b8428f47b63110af08edf1d16d4382</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Item Count</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2fb8428f47b63110af08edf1d16d4344_item_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
         <url/>
@@ -4170,11 +4089,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:48:25</sys_created_on>
         <sys_id>37b8428f47b63110af08edf1d16d4391</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>item</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2fb8428f47b63110af08edf1d16d4344_item_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
         <url/>
@@ -4193,11 +4112,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:48:26</sys_created_on>
         <sys_id>37b8428f47b63110af08edf1d16d43a0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status_code</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2fb8428f47b63110af08edf1d16d4344_status_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:26</sys_updated_on>
         <url/>
@@ -4216,11 +4135,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:48:25</sys_created_on>
         <sys_id>3bb8428f47b63110af08edf1d16d438d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_count</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2fb8428f47b63110af08edf1d16d4344_ds_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
         <url/>
@@ -4239,11 +4158,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:48:25</sys_created_on>
         <sys_id>3bb8428f47b63110af08edf1d16d439c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error_message</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2fb8428f47b63110af08edf1d16d4344_error_message_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
         <url/>
@@ -4262,11 +4181,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:48:25</sys_created_on>
         <sys_id>3fb8428f47b63110af08edf1d16d4389</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>count</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2fb8428f47b63110af08edf1d16d4344_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
         <url/>
@@ -4285,11 +4204,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:48:25</sys_created_on>
         <sys_id>3fb8428f47b63110af08edf1d16d4398</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response_headers</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2fb8428f47b63110af08edf1d16d4344_response_headers_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:25</sys_updated_on>
         <url/>
@@ -4308,11 +4227,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:48:26</sys_created_on>
         <sys_id>3fb8428f47b63110af08edf1d16d43a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_parsed_stream</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2fb8428f47b63110af08edf1d16d4344_ds_parsed_stream_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:26</sys_updated_on>
         <url/>
@@ -4331,11 +4250,11 @@ Author: Arumugam Subramanian</annotation>
         <sys_created_on>2023-12-03 18:48:26</sys_created_on>
         <sys_id>7bb8428f47b63110af08edf1d16d43ab</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Public APIs List</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2fb8428f47b63110af08edf1d16d4344_public_apis_list_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-03 18:48:26</sys_updated_on>
         <url/>

@@ -3,6 +3,7 @@
         <configuration_template/>
         <connection_type>http_connection</connection_type>
         <id>Public_APIs_List_Connection_Aliases</id>
+        <is_internal>false</is_internal>
         <multiple_connections>false</multiple_connections>
         <name>Public APIs List Connection Aliases</name>
         <parent/>

@@ -6,16 +6,20 @@
         <action_template/>
         <active>true</active>
         <annotation>Created by Arumugam Subramanian</annotation>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Get the current date in a format through the script include file. 
 This method is useful to keep the scripts DRY</description>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>get_current_date_from_script_include</internal_name>
         <label_cache>[{"name":"{{step[1c1e36a6-417b-4f59-99f1-41e244c2778b].current_full_date}}","label":"step➛Execute FDActionUtil.getCurrentDate Script step➛Current Full Date","type":"step","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Basic Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"datetime","uiUniqueId":"d76b571d-3fc8-44a6-971b-9afd3b213dfa"}},{"name":"{{step[1c1e36a6-417b-4f59-99f1-41e244c2778b].current_year}}","label":"step➛Execute FDActionUtil.getCurrentDate Script step➛Current Year","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"a6e4a22f-62c5-4cb8-8f39-852952d0f6cf"}},{"name":"{{step[1c1e36a6-417b-4f59-99f1-41e244c2778b].current_month}}","label":"step➛Execute FDActionUtil.getCurrentDate Script step➛Current Month","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"8892586e-91bf-43cb-a143-5dadc4b03d88"}},{"name":"{{step[1c1e36a6-417b-4f59-99f1-41e244c2778b].current_day}}","label":"step➛Execute FDActionUtil.getCurrentDate Script step➛Current Day","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"87c2dd32-f6d5-433b-95da-58f557c8dcaa"}}]</label_cache>
         <master_snapshot>15b731e2473e3110af08edf1d16d43a4</master_snapshot>
+        <master_snapshot_digest/>
         <name>Get Current Date From Script Include</name>
         <natlang/>
         <outputs/>
@@ -28,7 +32,7 @@ This method is useful to keep the scripts DRY</description>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d767b922473e3110af08edf1d16d433a</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Get Current Date From Script Include</sys_name>
         <sys_overrides/>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
@@ -36,7 +40,7 @@ This method is useful to keep the scripts DRY</description>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d767b922473e3110af08edf1d16d433a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-02 04:28:04</sys_updated_on>
+        <sys_updated_on>2024-12-13 11:44:15</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -600,11 +604,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:23:51</sys_created_on>
         <sys_id>a5493d26473e3110af08edf1d16d431a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Full Date</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3fa731e2473e3110af08edf1d16d4310_current_full_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:23:51</sys_updated_on>
         <url/>
@@ -623,11 +627,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:23:52</sys_created_on>
         <sys_id>ad493d26473e3110af08edf1d16d431d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Year</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3fa731e2473e3110af08edf1d16d4310_current_year_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:23:52</sys_updated_on>
         <url/>
@@ -646,11 +650,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:23:52</sys_created_on>
         <sys_id>b5493d26473e3110af08edf1d16d4321</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Month</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3fa731e2473e3110af08edf1d16d4310_current_month_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:23:52</sys_updated_on>
         <url/>
@@ -669,11 +673,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:23:52</sys_created_on>
         <sys_id>bd493d26473e3110af08edf1d16d4324</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Day</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3fa731e2473e3110af08edf1d16d4310_current_day_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:23:52</sys_updated_on>
         <url/>
@@ -1231,11 +1235,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:16:59</sys_created_on>
         <sys_id>41b731e2473e3110af08edf1d16d4388</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d767b922473e3110af08edf1d16d433a___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:16:59</sys_updated_on>
         <url/>
@@ -1254,11 +1258,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:25:25</sys_created_on>
         <sys_id>50a9b166473e3110af08edf1d16d4396</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Year</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d767b922473e3110af08edf1d16d433a_current_year_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:25:25</sys_updated_on>
         <url/>
@@ -1277,11 +1281,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:25:25</sys_created_on>
         <sys_id>54a9b166473e3110af08edf1d16d438f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Full Date</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d767b922473e3110af08edf1d16d433a_current_full_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:25:25</sys_updated_on>
         <url/>
@@ -1300,11 +1304,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:25:25</sys_created_on>
         <sys_id>58a9b166473e3110af08edf1d16d439e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Month</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d767b922473e3110af08edf1d16d433a_current_month_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:25:25</sys_updated_on>
         <url/>
@@ -1323,11 +1327,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:25:25</sys_created_on>
         <sys_id>a8a9b166473e3110af08edf1d16d43a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Day</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d767b922473e3110af08edf1d16d433a_current_day_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:25:25</sys_updated_on>
         <url/>
@@ -1346,11 +1350,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:16:59</sys_created_on>
         <sys_id>cdb731e2473e3110af08edf1d16d4381</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d767b922473e3110af08edf1d16d433a___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:16:59</sys_updated_on>
         <url/>
@@ -1379,12 +1383,15 @@ This method is useful to keep the scripts DRY</description>
         <action_status/>
         <action_template/>
         <annotation>Created by Arumugam Subramanian</annotation>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Get the current date in a format through the script include file. 
 This method is useful to keep the scripts DRY</description>
+        <flow_priority/>
         <internal_name>get_current_date_from_script_include</internal_name>
         <label_cache>[{"name":"{{step[1c1e36a6-417b-4f59-99f1-41e244c2778b].current_full_date}}","label":"step➛Execute FDActionUtil.getCurrentDate Script step➛Current Full Date","type":"step","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Basic Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"datetime","uiUniqueId":"d76b571d-3fc8-44a6-971b-9afd3b213dfa"}},{"name":"{{step[1c1e36a6-417b-4f59-99f1-41e244c2778b].current_year}}","label":"step➛Execute FDActionUtil.getCurrentDate Script step➛Current Year","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"a6e4a22f-62c5-4cb8-8f39-852952d0f6cf"}},{"name":"{{step[1c1e36a6-417b-4f59-99f1-41e244c2778b].current_month}}","label":"step➛Execute FDActionUtil.getCurrentDate Script step➛Current Month","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"8892586e-91bf-43cb-a143-5dadc4b03d88"}},{"name":"{{step[1c1e36a6-417b-4f59-99f1-41e244c2778b].current_day}}","label":"step➛Execute FDActionUtil.getCurrentDate Script step➛Current Day","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"87c2dd32-f6d5-433b-95da-58f557c8dcaa"}}]</label_cache>
         <master>true</master>
@@ -1971,11 +1978,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:28:03</sys_created_on>
         <sys_id>073afd66473e3110af08edf1d16d43ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Month</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_95b731e2473e3110af08edf1d16d43a8_current_month_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:28:03</sys_updated_on>
         <url/>
@@ -1994,11 +2001,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:28:03</sys_created_on>
         <sys_id>0f3afd66473e3110af08edf1d16d43f1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Day</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_95b731e2473e3110af08edf1d16d43a8_current_day_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:28:03</sys_updated_on>
         <url/>
@@ -2017,11 +2024,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:28:03</sys_created_on>
         <sys_id>873afd66473e3110af08edf1d16d43ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Full Date</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_95b731e2473e3110af08edf1d16d43a8_current_full_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:28:03</sys_updated_on>
         <url/>
@@ -2040,11 +2047,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:28:03</sys_created_on>
         <sys_id>8f3afd66473e3110af08edf1d16d43d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Year</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_95b731e2473e3110af08edf1d16d43a8_current_year_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:28:03</sys_updated_on>
         <url/>
@@ -2602,11 +2609,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:17:00</sys_created_on>
         <sys_id>15b731e2473e3110af08edf1d16d43e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_15b731e2473e3110af08edf1d16d43a4___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:17:00</sys_updated_on>
         <url/>
@@ -2625,11 +2632,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:28:03</sys_created_on>
         <sys_id>4b3afd66473e3110af08edf1d16d43fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Full Date</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_15b731e2473e3110af08edf1d16d43a4_current_full_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:28:03</sys_updated_on>
         <url/>
@@ -2648,11 +2655,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:28:04</sys_created_on>
         <sys_id>573a31a6473e3110af08edf1d16d430e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Day</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_15b731e2473e3110af08edf1d16d43a4_current_day_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:28:04</sys_updated_on>
         <url/>
@@ -2671,11 +2678,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:28:04</sys_created_on>
         <sys_id>933a31a6473e3110af08edf1d16d4302</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Year</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_15b731e2473e3110af08edf1d16d43a4_current_year_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:28:04</sys_updated_on>
         <url/>
@@ -2694,11 +2701,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:17:00</sys_created_on>
         <sys_id>9db731e2473e3110af08edf1d16d43eb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_15b731e2473e3110af08edf1d16d43a4___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:17:00</sys_updated_on>
         <url/>
@@ -2717,11 +2724,11 @@ This method is useful to keep the scripts DRY</description>
         <sys_created_on>2023-12-02 04:28:04</sys_created_on>
         <sys_id>d73a31a6473e3110af08edf1d16d430a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current Month</sys_name>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_15b731e2473e3110af08edf1d16d43a4_current_month_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:28:04</sys_updated_on>
         <url/>

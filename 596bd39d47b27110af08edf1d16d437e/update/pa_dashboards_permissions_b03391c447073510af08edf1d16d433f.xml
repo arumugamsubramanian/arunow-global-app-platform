@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
-        <dashboard display_value="MID Server Dashboard">5f3e10520f003010ce4d142386767e16</dashboard>
+        <dashboard display_value="">5f3e10520f003010ce4d142386767e16</dashboard>
         <delete>false</delete>
         <group/>
         <identity>pa_viewer</identity>

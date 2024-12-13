@@ -8,7 +8,9 @@
         <description>Flow Designer Action util Class which holds the basic utility.&#13;
 &#13;
 Script Include for Flow Designer Custom action to keep script DRY</description>
+        <mobile_callable>false</mobile_callable>
         <name>FDActionUtil</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[var FDActionUtil = Class.create();
 FDActionUtil.prototype = {
     initialize: function() {},

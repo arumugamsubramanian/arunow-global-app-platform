@@ -3,7 +3,7 @@
         <active>true</active>
         <approval_type/>
         <check_script_hash>false</check_script_hash>
-        <crypto_module display_value="com_glide_external_app_glideencrypter">df93a2415322201040d8ddeeff7b1251</crypto_module>
+        <crypto_module display_value="global.com_glide_external_app_glideencrypter">df93a2415322201040d8ddeeff7b1251</crypto_module>
         <crypto_spec display_value="com_glide_external_app_glideencrypter --- Symmetric Key Wrapping/Unwrapping">a393a2415322201040d8ddeeff7b1254</crypto_spec>
         <granular_operation/>
         <identity_group_alias/>

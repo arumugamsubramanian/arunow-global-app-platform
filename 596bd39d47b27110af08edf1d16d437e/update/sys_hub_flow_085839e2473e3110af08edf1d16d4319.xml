@@ -4,14 +4,20 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Schedule your cron jobs through Flow Designer. </description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>scheduled_jobs_demo</internal_name>
         <label_cache>[{"name":"2fca22c9-30b8-4bb9-8a1e-d5fbf1d9a9da.current_month","label":"1 - Get Current Date From Script Include➛Current Month","reference_display":"Current Month","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1236f022-c1f9-4103-b844-d62c6554c5b8"}}]</label_cache>
         <master_snapshot>e18bf5e6473e3110af08edf1d16d4369</master_snapshot>
+        <master_snapshot_digest/>
         <name>Scheduled Jobs Demo</name>
         <natlang/>
         <outputs/>
@@ -23,13 +29,14 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-02 04:19:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>085839e2473e3110af08edf1d16d4319</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Scheduled Jobs Demo</sys_name>
         <sys_overrides/>
         <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
@@ -37,8 +44,9 @@
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_hub_flow_085839e2473e3110af08edf1d16d4319</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-02 04:33:42</sys_updated_on>
+        <sys_updated_on>2024-12-13 11:44:23</sys_updated_on>
         <type>flow</type>
+        <version/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=085839e2473e3110af08edf1d16d4319"/>
     <sys_variable_value action="delete_multiple" query="document_key=085839e2473e3110af08edf1d16d4319"/>
@@ -100,6 +108,23 @@
         <upgrade_safe>true</upgrade_safe>
     </sys_flow_trigger_auto_script>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=085839e2473e3110af08edf1d16d4319"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=085839e2473e3110af08edf1d16d4319"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=085839e2473e3110af08edf1d16d4319^sys_idNOT IN085839e2473e3110af08edf1d16d431b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>085839e2473e3110af08edf1d16d4319</id>
+        <name>Scheduled Jobs Demo</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:19:39</sys_created_on>
+        <sys_id>085839e2473e3110af08edf1d16d431b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:19:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=085839e2473e3110af08edf1d16d431b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=085839e2473e3110af08edf1d16d4319"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=085839e2473e3110af08edf1d16d4319"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=085839e2473e3110af08edf1d16d4319"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=085839e2473e3110af08edf1d16d4319^sys_idNOT INa88a75a6473e3110af08edf1d16d4344"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -149,31 +174,16 @@
         <variable display_value="Time">b5d52504c32222002841b63b12d3aeaa</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_2ca52504c32222002841b63b12d3ae4a^id=a88a75a6473e3110af08edf1d16d4344"/>
-    <sys_hub_flow_stage action="delete_multiple" query="flow=085839e2473e3110af08edf1d16d4319"/>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=085839e2473e3110af08edf1d16d4319^sys_idNOT IN085839e2473e3110af08edf1d16d431b"/>
-    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
-        <id>085839e2473e3110af08edf1d16d4319</id>
-        <name>Scheduled Jobs Demo</name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-02 04:19:39</sys_created_on>
-        <sys_id>085839e2473e3110af08edf1d16d431b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-02 04:19:39</sys_updated_on>
-    </sys_flow_cat_variable_model>
-    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=085839e2473e3110af08edf1d16d431b"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=085839e2473e3110af08edf1d16d4319"/>
-    <sys_hub_flow_output action="delete_multiple" query="model=085839e2473e3110af08edf1d16d4319"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=085839e2473e3110af08edf1d16d4319"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=085839e2473e3110af08edf1d16d4319^sys_idNOT IN608a75a6473e3110af08edf1d16d434e,911bfda6473e3110af08edf1d16d4380,d51bfda6473e3110af08edf1d16d4375"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="Get Current Date From Script Include">15b731e2473e3110af08edf1d16d43a4</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -193,9 +203,11 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>d0a814d9-14c1-4395-8a0d-c633cfda6ab0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -230,9 +242,11 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>596efa65-92c8-4f42-9865-7808517045da</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -263,9 +277,9 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=d51bfda6473e3110af08edf1d16d4375"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=d51bfda6473e3110af08edf1d16d4375"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d51bfda6473e3110af08edf1d16d4375"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=085839e2473e3110af08edf1d16d4319"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=085839e2473e3110af08edf1d16d4319^sys_idNOT IN951bfda6473e3110af08edf1d16d437a,9d1bfda6473e3110af08edf1d16d4381,d91bfda6473e3110af08edf1d16d4377,e48a75a6473e3110af08edf1d16d435c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">dd1bfda6473e3110af08edf1d16d4379</block>
         <comment/>
         <connected_to>596efa65-92c8-4f42-9865-7808517045da</connected_to>
@@ -276,6 +290,7 @@
         <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>5</order>
@@ -298,6 +313,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=951bfda6473e3110af08edf1d16d437a"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=951bfda6473e3110af08edf1d16d437a"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">d51bfda6473e3110af08edf1d16d4381</block>
         <comment/>
         <connected_to/>
@@ -308,6 +324,7 @@
         <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>7</order>
@@ -330,6 +347,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9d1bfda6473e3110af08edf1d16d4381"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=9d1bfda6473e3110af08edf1d16d4381"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">151bfda6473e3110af08edf1d16d4377</block>
         <comment/>
         <connected_to/>
@@ -340,6 +358,7 @@
         <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>4</order>
@@ -362,6 +381,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d91bfda6473e3110af08edf1d16d4377"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=d91bfda6473e3110af08edf1d16d4377"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">248a75a6473e3110af08edf1d16d434f</block>
         <comment/>
         <connected_to/>
@@ -372,6 +392,7 @@
         <flow display_value="Scheduled Jobs Demo">085839e2473e3110af08edf1d16d4319</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -433,6 +454,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e48a75a6473e3110af08edf1d16d435c"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e48a75a6473e3110af08edf1d16d435c"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=085839e2473e3110af08edf1d16d4319"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=085839e2473e3110af08edf1d16d4319"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=085839e2473e3110af08edf1d16d4319"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_085839e2473e3110af08edf1d16d4319"/>
@@ -444,11 +466,14 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Schedule your cron jobs through Flow Designer. </description>
+        <flow_priority/>
         <internal_name>scheduled_jobs_demo</internal_name>
         <label_cache>[{"name":"2fca22c9-30b8-4bb9-8a1e-d5fbf1d9a9da.current_month","label":"1 - Get Current Date From Script Include➛Current Month","reference_display":"Current Month","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1236f022-c1f9-4103-b844-d62c6554c5b8"}}]</label_cache>
         <master>true</master>
@@ -477,9 +502,27 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
         <type>flow</type>
+        <version/>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=e18bf5e6473e3110af08edf1d16d4369"/>
     <sys_variable_value action="delete_multiple" query="document_key=e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e18bf5e6473e3110af08edf1d16d4369^sys_idNOT INe58bf5e6473e3110af08edf1d16d436a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e18bf5e6473e3110af08edf1d16d4369</id>
+        <name>Scheduled Jobs Demo</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
+        <sys_id>e58bf5e6473e3110af08edf1d16d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e58bf5e6473e3110af08edf1d16d436a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e18bf5e6473e3110af08edf1d16d4369"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e18bf5e6473e3110af08edf1d16d4369"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=e18bf5e6473e3110af08edf1d16d4369^sys_idNOT INa58bf5e6473e3110af08edf1d16d438a"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -529,31 +572,16 @@
         <variable display_value="Day of Month">ab36a504c32222002841b63b12d3ae8a</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_2ca52504c32222002841b63b12d3ae4a^id=a58bf5e6473e3110af08edf1d16d438a"/>
-    <sys_hub_flow_stage action="delete_multiple" query="flow=e18bf5e6473e3110af08edf1d16d4369"/>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=e18bf5e6473e3110af08edf1d16d4369^sys_idNOT INe58bf5e6473e3110af08edf1d16d436a"/>
-    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
-        <id>e18bf5e6473e3110af08edf1d16d4369</id>
-        <name>Scheduled Jobs Demo</name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-02 04:33:41</sys_created_on>
-        <sys_id>e58bf5e6473e3110af08edf1d16d436a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-02 04:33:41</sys_updated_on>
-    </sys_flow_cat_variable_model>
-    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e58bf5e6473e3110af08edf1d16d436a"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=e18bf5e6473e3110af08edf1d16d4369"/>
-    <sys_hub_flow_output action="delete_multiple" query="model=e18bf5e6473e3110af08edf1d16d4369"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e18bf5e6473e3110af08edf1d16d4369"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=e18bf5e6473e3110af08edf1d16d4369^sys_idNOT IN618bf5e6473e3110af08edf1d16d4389,e18bf5e6473e3110af08edf1d16d4384,ed8bf5e6473e3110af08edf1d16d437f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>d0a814d9-14c1-4395-8a0d-c633cfda6ab0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -588,9 +616,11 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>596efa65-92c8-4f42-9865-7808517045da</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -625,9 +655,11 @@
         <action_inputs/>
         <action_type display_value="Get Current Date From Script Include">15b731e2473e3110af08edf1d16d43a4</action_type>
         <action_type_parent display_value="Get Current Date From Script Include">d767b922473e3110af08edf1d16d433a</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -643,9 +675,9 @@
     <sys_variable_value action="delete_multiple" query="document_key=ed8bf5e6473e3110af08edf1d16d437f"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ed8bf5e6473e3110af08edf1d16d437f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ed8bf5e6473e3110af08edf1d16d437f"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e18bf5e6473e3110af08edf1d16d4369"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=e18bf5e6473e3110af08edf1d16d4369^sys_idNOT IN218bf5e6473e3110af08edf1d16d436e,618bf5e6473e3110af08edf1d16d4377,a58bf5e6473e3110af08edf1d16d4374,e98bf5e6473e3110af08edf1d16d4371"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">248a75a6473e3110af08edf1d16d434f</block>
         <comment/>
         <connected_to/>
@@ -656,6 +688,7 @@
         <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -718,6 +751,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=218bf5e6473e3110af08edf1d16d436e"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=218bf5e6473e3110af08edf1d16d436e"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">d51bfda6473e3110af08edf1d16d4381</block>
         <comment/>
         <connected_to/>
@@ -728,6 +762,7 @@
         <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>7</order>
@@ -750,6 +785,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=618bf5e6473e3110af08edf1d16d4377"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=618bf5e6473e3110af08edf1d16d4377"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">dd1bfda6473e3110af08edf1d16d4379</block>
         <comment/>
         <connected_to>596efa65-92c8-4f42-9865-7808517045da</connected_to>
@@ -760,6 +796,7 @@
         <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>5</order>
@@ -782,6 +819,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a58bf5e6473e3110af08edf1d16d4374"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a58bf5e6473e3110af08edf1d16d4374"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">151bfda6473e3110af08edf1d16d4377</block>
         <comment/>
         <connected_to/>
@@ -792,6 +830,7 @@
         <flow display_value="Scheduled Jobs Demo">e18bf5e6473e3110af08edf1d16d4369</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>4</order>
@@ -813,6 +852,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=e98bf5e6473e3110af08edf1d16d4371"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e98bf5e6473e3110af08edf1d16d4371"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e98bf5e6473e3110af08edf1d16d4371"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e18bf5e6473e3110af08edf1d16d4369"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=e18bf5e6473e3110af08edf1d16d4369"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=e18bf5e6473e3110af08edf1d16d4369"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e18bf5e6473e3110af08edf1d16d4369"/>

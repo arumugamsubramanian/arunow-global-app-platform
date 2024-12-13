@@ -6,15 +6,19 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Discover any IP address enabled devices from your infrastructure</description>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>discover_by_ip_address</internal_name>
         <label_cache>[{"name":"{{action.ip_address}}","label":"action➛IP Address","type":"action","ref":""},{"name":"{{action.source}}","label":"action➛Source","type":"action","ref":""},{"name":"{{action.application}}","label":"action➛Application","type":"action","ref":""},{"name":"{{action.application.name}}","label":"action➛Application➛Name","type":"action","ref":""},{"name":"{{step[a3b365fc-7814-47b9-b9f8-b537cd279b2d].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[a3b365fc-7814-47b9-b9f8-b537cd279b2d].discovery_status}}","label":"step➛Script step➛Discovery Status","type":"step","ref":""}]</label_cache>
         <master_snapshot>e73432832f17f410ba1b52492799b66d</master_snapshot>
+        <master_snapshot_digest/>
         <name>Discover by IP Address</name>
         <natlang/>
         <outputs/>
@@ -27,15 +31,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fb7372cb2fd3f410ba1b52492799b615</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Discover by IP Address</sys_name>
         <sys_overrides/>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_fb7372cb2fd3f410ba1b52492799b615</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-30 14:04:19</sys_updated_on>
+        <sys_updated_on>2024-12-13 11:44:21</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -172,18 +176,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d3247e432f17f410ba1b52492799b6a5"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>d3247e432f17f410ba1b52492799b6a5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 09:45:05</sys_created_on>
-        <sys_id>1934fe432f17f410ba1b52492799b615</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 09:45:05</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ip_address</field>
         <id>d3247e432f17f410ba1b52492799b6a5</id>
         <sys_created_by>admin</sys_created_by>
@@ -206,42 +198,6 @@
         <sys_updated_on>2021-10-24 09:44:57</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_d3247e432f17f410ba1b52492799b6a5</table>
         <value>{{action.application.name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection</field>
-        <id>d3247e432f17f410ba1b52492799b6a5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 09:45:05</sys_created_on>
-        <sys_id>5534fe432f17f410ba1b52492799b615</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 09:45:05</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection_type</field>
-        <id>d3247e432f17f410ba1b52492799b6a5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 09:45:05</sys_created_on>
-        <sys_id>d934fe432f17f410ba1b52492799b615</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 09:45:05</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>d3247e432f17f410ba1b52492799b6a5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 09:44:57</sys_created_on>
-        <sys_id>17247e432f17f410ba1b52492799b6c7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 09:44:57</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>source</field>
@@ -952,7 +908,7 @@
         <sys_id>07247e432f17f410ba1b52492799b679</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>IP Address</sys_name>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fb7372cb2fd3f410ba1b52492799b615_ip_address_en</sys_update_name>
@@ -1003,7 +959,7 @@
         <sys_id>07247e432f17f410ba1b52492799b6a2</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Application</sys_name>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fb7372cb2fd3f410ba1b52492799b615_application_en</sys_update_name>
@@ -1054,7 +1010,7 @@
         <sys_id>0b247e432f17f410ba1b52492799b698</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Source</sys_name>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fb7372cb2fd3f410ba1b52492799b615_source_en</sys_update_name>
@@ -1107,7 +1063,7 @@
         <sys_id>b08572072f17f410ba1b52492799b68b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Discovery Status</sys_name>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fb7372cb2fd3f410ba1b52492799b615_discovery_status_en</sys_update_name>
@@ -1167,11 +1123,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Discover any IP address enabled devices from your infrastructure</description>
+        <flow_priority/>
         <internal_name>discover_by_ip_address</internal_name>
         <label_cache>[{"name":"{{action.ip_address}}","label":"action➛IP Address","type":"action","ref":""},{"name":"{{action.source}}","label":"action➛Source","type":"action","ref":""},{"name":"{{action.application}}","label":"action➛Application","type":"action","ref":""},{"name":"{{action.application.name}}","label":"action➛Application➛Name","type":"action","ref":""},{"name":"{{step[a3b365fc-7814-47b9-b9f8-b537cd279b2d].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[a3b365fc-7814-47b9-b9f8-b537cd279b2d].discovery_status}}","label":"step➛Script step➛Discovery Status","type":"step","ref":""}]</label_cache>
         <master>true</master>
@@ -1303,18 +1262,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7b3432832f17f410ba1b52492799b687"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>7b3432832f17f410ba1b52492799b687</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 09:45:16</sys_created_on>
-        <sys_id>b33432832f17f410ba1b52492799b6f1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 09:45:16</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ip_address</field>
         <id>7b3432832f17f410ba1b52492799b687</id>
         <sys_created_by>admin</sys_created_by>
@@ -1337,42 +1284,6 @@
         <sys_updated_on>2021-10-24 09:45:16</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_7b3432832f17f410ba1b52492799b687</table>
         <value>{{action.application.name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection</field>
-        <id>7b3432832f17f410ba1b52492799b687</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 09:45:16</sys_created_on>
-        <sys_id>ff3432832f17f410ba1b52492799b6f0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 09:45:16</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection_type</field>
-        <id>7b3432832f17f410ba1b52492799b687</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 09:45:16</sys_created_on>
-        <sys_id>773432832f17f410ba1b52492799b6f1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 09:45:16</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>7b3432832f17f410ba1b52492799b687</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-24 09:45:16</sys_created_on>
-        <sys_id>3b3432832f17f410ba1b52492799b6f1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 09:45:16</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>source</field>
@@ -2083,7 +1994,7 @@
         <sys_id>333432832f17f410ba1b52492799b676</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>IP Address</sys_name>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e73432832f17f410ba1b52492799b66d_ip_address_en</sys_update_name>
@@ -2134,7 +2045,7 @@
         <sys_id>b33432832f17f410ba1b52492799b685</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Application</sys_name>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e73432832f17f410ba1b52492799b66d_application_en</sys_update_name>
@@ -2185,7 +2096,7 @@
         <sys_id>ff3432832f17f410ba1b52492799b67b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Source</sys_name>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e73432832f17f410ba1b52492799b66d_source_en</sys_update_name>
@@ -2238,7 +2149,7 @@
         <sys_id>9a85b2072f17f410ba1b52492799b6a4</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Discovery Status</sys_name>
-        <sys_package display_value="">b1c1764f2fd3f410ba1b52492799b608</sys_package>
+        <sys_package display_value="AruNow Global Application Platform" source="596bd39d47b27110af08edf1d16d437e">596bd39d47b27110af08edf1d16d437e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AruNow Global Application Platform">596bd39d47b27110af08edf1d16d437e</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e73432832f17f410ba1b52492799b66d_discovery_status_en</sys_update_name>

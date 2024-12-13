@@ -2,6 +2,7 @@
     <sys_graphql_schema action="INSERT_OR_UPDATE">
         <active>true</active>
         <application_namespace>x1247180</application_namespace>
+        <contextual_acl_max_depth/>
         <enforce_acl/>
         <name>Gold Price Tracker</name>
         <namespace>goldPriceTracker</namespace>

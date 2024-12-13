@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
-        <dashboard display_value="My Virtual Assets">10d123f0eb0002004d7763fba206fe4c</dashboard>
+        <dashboard display_value="">10d123f0eb0002004d7763fba206fe4c</dashboard>
         <delete>true</delete>
         <group/>
         <identity>pa_power_user</identity>

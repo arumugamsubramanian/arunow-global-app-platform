@@ -25,7 +25,9 @@ Or like this:&#13;
 &#13;
     bg.getValue('number');&#13;
     bg.getValue('short_description');</description>
+        <mobile_callable>false</mobile_callable>
         <name>BetterGetter</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function BetterGetter(gr) {
     // In case caller omits the new keyword
     if (!(this instanceof BetterGetter)) return new BetterGetter(gr);

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
-        <dashboard display_value="ROI Predicted Savings">3677cd36d7700200f215a5f75e6103fe</dashboard>
+        <dashboard display_value="">3677cd36d7700200f215a5f75e6103fe</dashboard>
         <delete>true</delete>
         <group/>
         <identity>pa_power_user</identity>
